@@ -4,9 +4,9 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../user/at32f415_clock.c \
-../user/at32f415_int.c \
-../user/main.c 
+./models/$(MODEL)/user/at32f415_clock.c \
+./models/$(MODEL)/user/at32f415_int.c \
+./models/$(MODEL)/user/main.c 
 
 OBJS += \
 ./build/user/at32f415_clock.o \
@@ -20,7 +20,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-build/user/%.o: ../user/%.c build/user/subdir.mk
+build/user/%.o: ./models/$(MODEL)/user/%.c build/user/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: GNU Arm Cross C Compiler'
 	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -DAT_START_F415_V1 -DAT32F415RCT7 -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
