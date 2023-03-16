@@ -1200,96 +1200,96 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./build/cmsis/startup_at32f415.o
  .text          0x0000000000000000        0x0 ./build/cmsis/system_at32f415.o
  .bss           0x0000000000000000        0x0 ./build/cmsis/system_at32f415.o
- .text          0x0000000000000000        0x0 ./bsp/at32f415_board.o
+ .text          0x0000000000000000        0x0 ./build/bsp/at32f415_board.o
  .text.at32_button_state
-                0x0000000000000000       0x18 ./bsp/at32f415_board.o
+                0x0000000000000000       0x18 ./build/bsp/at32f415_board.o
  .text.at32_button_press
-                0x0000000000000000       0x4c ./bsp/at32f415_board.o
+                0x0000000000000000       0x4c ./build/bsp/at32f415_board.o
  .text.at32_led_on
-                0x0000000000000000       0x44 ./bsp/at32f415_board.o
+                0x0000000000000000       0x44 ./build/bsp/at32f415_board.o
  .text.delay_us
-                0x0000000000000000       0x6c ./bsp/at32f415_board.o
+                0x0000000000000000       0x6c ./build/bsp/at32f415_board.o
  .text.delay_sec
-                0x0000000000000000       0x38 ./bsp/at32f415_board.o
- .text          0x0000000000000000        0x0 ./bsp/i2c.o
- .data          0x0000000000000000        0x0 ./bsp/i2c.o
- .text          0x0000000000000000        0x0 ./bsp/i2c_application.o
- .data          0x0000000000000000        0x0 ./bsp/i2c_application.o
- .bss           0x0000000000000000        0x0 ./bsp/i2c_application.o
+                0x0000000000000000       0x38 ./build/bsp/at32f415_board.o
+ .text          0x0000000000000000        0x0 ./build/bsp/i2c.o
+ .data          0x0000000000000000        0x0 ./build/bsp/i2c.o
+ .text          0x0000000000000000        0x0 ./build/bsp/i2c_application.o
+ .data          0x0000000000000000        0x0 ./build/bsp/i2c_application.o
+ .bss           0x0000000000000000        0x0 ./build/bsp/i2c_application.o
  .text.i2c_lowlevel_init
-                0x0000000000000000       0x12 ./bsp/i2c_application.o
+                0x0000000000000000       0x12 ./build/bsp/i2c_application.o
  .text.i2c_wait_end
-                0x0000000000000000       0x40 ./bsp/i2c_application.o
+                0x0000000000000000       0x40 ./build/bsp/i2c_application.o
  .text.i2c_dma_config
-                0x0000000000000000       0x72 ./bsp/i2c_application.o
+                0x0000000000000000       0x72 ./build/bsp/i2c_application.o
  .text.i2c_master_write_addr
-                0x0000000000000000       0xc6 ./bsp/i2c_application.o
+                0x0000000000000000       0xc6 ./build/bsp/i2c_application.o
  .text.i2c_master_read_addr
-                0x0000000000000000      0x13e ./bsp/i2c_application.o
+                0x0000000000000000      0x13e ./build/bsp/i2c_application.o
  .text.i2c_master_transmit
-                0x0000000000000000       0xec ./bsp/i2c_application.o
+                0x0000000000000000       0xec ./build/bsp/i2c_application.o
  .text.i2c_slave_receive
-                0x0000000000000000      0x10c ./bsp/i2c_application.o
+                0x0000000000000000      0x10c ./build/bsp/i2c_application.o
  .text.i2c_master_receive
-                0x0000000000000000      0x28c ./bsp/i2c_application.o
+                0x0000000000000000      0x28c ./build/bsp/i2c_application.o
  .text.i2c_slave_transmit
-                0x0000000000000000      0x140 ./bsp/i2c_application.o
+                0x0000000000000000      0x140 ./build/bsp/i2c_application.o
  .text.i2c_master_transmit_int
-                0x0000000000000000       0xa4 ./bsp/i2c_application.o
+                0x0000000000000000       0xa4 ./build/bsp/i2c_application.o
  .text.i2c_slave_receive_int
-                0x0000000000000000       0x80 ./bsp/i2c_application.o
+                0x0000000000000000       0x80 ./build/bsp/i2c_application.o
  .text.i2c_master_receive_int
-                0x0000000000000000      0x11c ./bsp/i2c_application.o
+                0x0000000000000000      0x11c ./build/bsp/i2c_application.o
  .text.i2c_slave_transmit_int
-                0x0000000000000000       0x80 ./bsp/i2c_application.o
+                0x0000000000000000       0x80 ./build/bsp/i2c_application.o
  .text.i2c_master_transmit_dma
-                0x0000000000000000       0xbc ./bsp/i2c_application.o
+                0x0000000000000000       0xbc ./build/bsp/i2c_application.o
  .text.i2c_slave_receive_dma
-                0x0000000000000000       0xa8 ./bsp/i2c_application.o
+                0x0000000000000000       0xa8 ./build/bsp/i2c_application.o
  .text.i2c_master_receive_dma
-                0x0000000000000000      0x108 ./bsp/i2c_application.o
+                0x0000000000000000      0x108 ./build/bsp/i2c_application.o
  .text.i2c_slave_transmit_dma
-                0x0000000000000000       0xa8 ./bsp/i2c_application.o
+                0x0000000000000000       0xa8 ./build/bsp/i2c_application.o
  .text.i2c_memory_address_send
-                0x0000000000000000       0x7c ./bsp/i2c_application.o
+                0x0000000000000000       0x7c ./build/bsp/i2c_application.o
  .text.i2c_memory_write
-                0x0000000000000000      0x128 ./bsp/i2c_application.o
+                0x0000000000000000      0x128 ./build/bsp/i2c_application.o
  .text.i2c_memory_read
-                0x0000000000000000      0x314 ./bsp/i2c_application.o
+                0x0000000000000000      0x314 ./build/bsp/i2c_application.o
  .text.i2c_memory_write_int
-                0x0000000000000000      0x100 ./bsp/i2c_application.o
+                0x0000000000000000      0x100 ./build/bsp/i2c_application.o
  .text.i2c_memory_read_int
-                0x0000000000000000      0x198 ./bsp/i2c_application.o
+                0x0000000000000000      0x198 ./build/bsp/i2c_application.o
  .text.i2c_memory_write_dma
-                0x0000000000000000      0x118 ./bsp/i2c_application.o
+                0x0000000000000000      0x118 ./build/bsp/i2c_application.o
  .text.i2c_memory_read_dma
-                0x0000000000000000      0x190 ./bsp/i2c_application.o
+                0x0000000000000000      0x190 ./build/bsp/i2c_application.o
  .text.i2c_master_tx_isr_int
-                0x0000000000000000       0x72 ./bsp/i2c_application.o
+                0x0000000000000000       0x72 ./build/bsp/i2c_application.o
  .text.i2c_master_rx_isr_int
-                0x0000000000000000      0x1a6 ./bsp/i2c_application.o
+                0x0000000000000000      0x1a6 ./build/bsp/i2c_application.o
  .text.i2c_slave_tx_isr_int
-                0x0000000000000000       0xb6 ./bsp/i2c_application.o
+                0x0000000000000000       0xb6 ./build/bsp/i2c_application.o
  .text.i2c_slave_rx_isr_int
-                0x0000000000000000       0xa8 ./bsp/i2c_application.o
+                0x0000000000000000       0xa8 ./build/bsp/i2c_application.o
  .text.i2c_master_tx_isr_dma
-                0x0000000000000000       0x42 ./bsp/i2c_application.o
+                0x0000000000000000       0x42 ./build/bsp/i2c_application.o
  .text.i2c_slave_tx_rx_isr_dma
-                0x0000000000000000       0x6e ./bsp/i2c_application.o
+                0x0000000000000000       0x6e ./build/bsp/i2c_application.o
  .text.i2c_evt_irq_handler
-                0x0000000000000000       0x74 ./bsp/i2c_application.o
+                0x0000000000000000       0x74 ./build/bsp/i2c_application.o
  .text.i2c_dma_tx_irq_handler
-                0x0000000000000000      0x24c ./bsp/i2c_application.o
+                0x0000000000000000      0x24c ./build/bsp/i2c_application.o
  .text.i2c_dma_rx_irq_handler
-                0x0000000000000000      0x264 ./bsp/i2c_application.o
+                0x0000000000000000      0x264 ./build/bsp/i2c_application.o
  .text.i2c_err_irq_handler
-                0x0000000000000000      0x168 ./bsp/i2c_application.o
- .text          0x0000000000000000        0x0 ./bsp/timer1.o
- .data          0x0000000000000000        0x0 ./bsp/timer1.o
- .bss           0x0000000000000000        0x0 ./bsp/timer1.o
- .text          0x0000000000000000        0x0 ./bsp/uid.o
- .data          0x0000000000000000        0x0 ./bsp/uid.o
- .bss           0x0000000000000000        0x0 ./bsp/uid.o
+                0x0000000000000000      0x168 ./build/bsp/i2c_application.o
+ .text          0x0000000000000000        0x0 ./build/bsp/timer1.o
+ .data          0x0000000000000000        0x0 ./build/bsp/timer1.o
+ .bss           0x0000000000000000        0x0 ./build/bsp/timer1.o
+ .text          0x0000000000000000        0x0 ./build/bsp/uid.o
+ .data          0x0000000000000000        0x0 ./build/bsp/uid.o
+ .bss           0x0000000000000000        0x0 ./build/bsp/uid.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
@@ -1505,11 +1505,11 @@ LOAD ./firmware/at32f415_wdt.o
 LOAD ./firmware/at32f415_wwdt.o
 LOAD ./build/cmsis/startup_at32f415.o
 LOAD ./build/cmsis/system_at32f415.o
-LOAD ./bsp/at32f415_board.o
-LOAD ./bsp/i2c.o
-LOAD ./bsp/i2c_application.o
-LOAD ./bsp/timer1.o
-LOAD ./bsp/uid.o
+LOAD ./build/bsp/at32f415_board.o
+LOAD ./build/bsp/i2c.o
+LOAD ./build/bsp/i2c_application.o
+LOAD ./build/bsp/timer1.o
+LOAD ./build/bsp/uid.o
 START GROUP
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a
@@ -1923,53 +1923,53 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
                 0x000000000800371c      0x1ec ./build/cmsis/system_at32f415.o
                 0x000000000800371c                system_core_clock_update
  .text.__io_putchar
-                0x0000000008003908       0x34 ./bsp/at32f415_board.o
+                0x0000000008003908       0x34 ./build/bsp/at32f415_board.o
                 0x0000000008003908                __io_putchar
- .text._write   0x000000000800393c       0x38 ./bsp/at32f415_board.o
+ .text._write   0x000000000800393c       0x38 ./build/bsp/at32f415_board.o
                 0x000000000800393c                _write
  .text.uart_print_init
-                0x0000000008003974       0x78 ./bsp/at32f415_board.o
+                0x0000000008003974       0x78 ./build/bsp/at32f415_board.o
                 0x0000000008003974                uart_print_init
  .text.at32_board_init
-                0x00000000080039ec       0x50 ./bsp/at32f415_board.o
+                0x00000000080039ec       0x50 ./build/bsp/at32f415_board.o
                 0x00000000080039ec                at32_board_init
  .text.at32_button_init
-                0x0000000008003a3c       0x44 ./bsp/at32f415_board.o
+                0x0000000008003a3c       0x44 ./build/bsp/at32f415_board.o
                 0x0000000008003a3c                at32_button_init
  .text.at32_led_init
-                0x0000000008003a80       0x68 ./bsp/at32f415_board.o
+                0x0000000008003a80       0x68 ./build/bsp/at32f415_board.o
                 0x0000000008003a80                at32_led_init
  .text.at32_led_off
-                0x0000000008003ae8       0x44 ./bsp/at32f415_board.o
+                0x0000000008003ae8       0x44 ./build/bsp/at32f415_board.o
                 0x0000000008003ae8                at32_led_off
  .text.at32_led_toggle
-                0x0000000008003b2c       0x50 ./bsp/at32f415_board.o
+                0x0000000008003b2c       0x50 ./build/bsp/at32f415_board.o
                 0x0000000008003b2c                at32_led_toggle
  .text.delay_init
-                0x0000000008003b7c       0x40 ./bsp/at32f415_board.o
+                0x0000000008003b7c       0x40 ./build/bsp/at32f415_board.o
                 0x0000000008003b7c                delay_init
  .text.delay_ms
-                0x0000000008003bbc       0x98 ./bsp/at32f415_board.o
+                0x0000000008003bbc       0x98 ./build/bsp/at32f415_board.o
                 0x0000000008003bbc                delay_ms
  .text.i2c_lowlevel_init
-                0x0000000008003c54       0xac ./bsp/i2c.o
+                0x0000000008003c54       0xac ./build/bsp/i2c.o
                 0x0000000008003c54                i2c_lowlevel_init
  .text.i2c_config
-                0x0000000008003d00       0x2c ./bsp/i2c_application.o
+                0x0000000008003d00       0x2c ./build/bsp/i2c_application.o
                 0x0000000008003d00                i2c_config
  .text.i2c_wait_flag
-                0x0000000008003d2c       0xe8 ./bsp/i2c_application.o
+                0x0000000008003d2c       0xe8 ./build/bsp/i2c_application.o
                 0x0000000008003d2c                i2c_wait_flag
  .text.my_i2c_master_transmit
-                0x0000000008003e14      0x110 ./bsp/i2c_application.o
+                0x0000000008003e14      0x110 ./build/bsp/i2c_application.o
                 0x0000000008003e14                my_i2c_master_transmit
  .text.timer1_config
-                0x0000000008003f24       0x7c ./bsp/timer1.o
+                0x0000000008003f24       0x7c ./build/bsp/timer1.o
                 0x0000000008003f24                timer1_config
  .text.TMR1_OVF_TMR10_IRQHandler
-                0x0000000008003fa0       0x24 ./bsp/timer1.o
+                0x0000000008003fa0       0x24 ./build/bsp/timer1.o
                 0x0000000008003fa0                TMR1_OVF_TMR10_IRQHandler
- .text.get_UID  0x0000000008003fc4       0x58 ./bsp/uid.o
+ .text.get_UID  0x0000000008003fc4       0x58 ./build/bsp/uid.o
                 0x0000000008003fc4                get_UID
  *(.glue_7)
  .glue_7        0x000000000800401c        0x0 linker stubs
@@ -2004,7 +2004,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *fill*         0x0000000008004087        0x1 
  .rodata        0x0000000008004088       0x28 ./firmware/at32f415_crm.o
  .rodata        0x00000000080040b0       0x10 ./build/cmsis/system_at32f415.o
- .rodata        0x00000000080040c0       0x3c ./bsp/i2c_application.o
+ .rodata        0x00000000080040c0       0x3c ./build/bsp/i2c_application.o
  .rodata        0x00000000080040fc        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
                 0x00000000080040fc                _global_impure_ptr
  .rodata        0x0000000008004100       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
@@ -2061,7 +2061,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
                 0x0000000020000004                tx_buf
  .data          0x000000002000000c        0x4 ./build/cmsis/system_at32f415.o
                 0x000000002000000c                system_core_clock
- .data          0x0000000020000010       0x21 ./bsp/at32f415_board.o
+ .data          0x0000000020000010       0x21 ./build/bsp/at32f415_board.o
                 0x0000000020000010                led_gpio_port
                 0x000000002000001c                led_gpio_pin
                 0x0000000020000024                led_gpio_crm_clk
@@ -2088,8 +2088,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
                 0x0000000020000098                __bss_start__ = _sbss
  *(.bss)
  .bss           0x0000000020000098       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
- .bss           0x00000000200000b4        0x8 ./bsp/at32f415_board.o
- .bss           0x00000000200000bc       0x38 ./bsp/i2c.o
+ .bss           0x00000000200000b4        0x8 ./build/bsp/at32f415_board.o
+ .bss           0x00000000200000bc       0x38 ./build/bsp/i2c.o
                 0x00000000200000bc                hi2cx
  .bss           0x00000000200000f4        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
                 0x00000000200000f4                __malloc_free_list
@@ -2152,15 +2152,15 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  .ARM.attributes
                 0x0000000000000239       0x2e ./build/cmsis/system_at32f415.o
  .ARM.attributes
-                0x0000000000000267       0x2e ./bsp/at32f415_board.o
+                0x0000000000000267       0x2e ./build/bsp/at32f415_board.o
  .ARM.attributes
-                0x0000000000000295       0x2e ./bsp/i2c.o
+                0x0000000000000295       0x2e ./build/bsp/i2c.o
  .ARM.attributes
-                0x00000000000002c3       0x2e ./bsp/i2c_application.o
+                0x00000000000002c3       0x2e ./build/bsp/i2c_application.o
  .ARM.attributes
-                0x00000000000002f1       0x2e ./bsp/timer1.o
+                0x00000000000002f1       0x2e ./build/bsp/timer1.o
  .ARM.attributes
-                0x000000000000031f       0x2e ./bsp/uid.o
+                0x000000000000031f       0x2e ./build/bsp/uid.o
  .ARM.attributes
                 0x000000000000034d       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
@@ -2269,11 +2269,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .comment       0x0000000000000033       0x34 ./firmware/at32f415_tmr.o
  .comment       0x0000000000000033       0x34 ./firmware/at32f415_usart.o
  .comment       0x0000000000000033       0x34 ./build/cmsis/system_at32f415.o
- .comment       0x0000000000000033       0x34 ./bsp/at32f415_board.o
- .comment       0x0000000000000033       0x34 ./bsp/i2c.o
- .comment       0x0000000000000033       0x34 ./bsp/i2c_application.o
- .comment       0x0000000000000033       0x34 ./bsp/timer1.o
- .comment       0x0000000000000033       0x34 ./bsp/uid.o
+ .comment       0x0000000000000033       0x34 ./build/bsp/at32f415_board.o
+ .comment       0x0000000000000033       0x34 ./build/bsp/i2c.o
+ .comment       0x0000000000000033       0x34 ./build/bsp/i2c_application.o
+ .comment       0x0000000000000033       0x34 ./build/bsp/timer1.o
+ .comment       0x0000000000000033       0x34 ./build/bsp/uid.o
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
@@ -2327,11 +2327,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_info    0x000000000000aa71      0xf97 ./firmware/at32f415_usart.o
  .debug_info    0x000000000000ba08       0x22 ./build/cmsis/startup_at32f415.o
  .debug_info    0x000000000000ba2a     0x1493 ./build/cmsis/system_at32f415.o
- .debug_info    0x000000000000cebd     0x22ab ./bsp/at32f415_board.o
- .debug_info    0x000000000000f168     0x1990 ./bsp/i2c.o
- .debug_info    0x0000000000010af8     0x192b ./bsp/i2c_application.o
- .debug_info    0x0000000000012423     0x12c4 ./bsp/timer1.o
- .debug_info    0x00000000000136e7       0xd9 ./bsp/uid.o
+ .debug_info    0x000000000000cebd     0x22ab ./build/bsp/at32f415_board.o
+ .debug_info    0x000000000000f168     0x1990 ./build/bsp/i2c.o
+ .debug_info    0x0000000000010af8     0x192b ./build/bsp/i2c_application.o
+ .debug_info    0x0000000000012423     0x12c4 ./build/bsp/timer1.o
+ .debug_info    0x00000000000136e7       0xd9 ./build/bsp/uid.o
  .debug_info    0x00000000000137c0       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .debug_info    0x00000000000137e6      0x717 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .debug_info    0x0000000000013efd       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
@@ -2388,11 +2388,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_abbrev  0x000000000000106a      0x224 ./firmware/at32f415_usart.o
  .debug_abbrev  0x000000000000128e       0x12 ./build/cmsis/startup_at32f415.o
  .debug_abbrev  0x00000000000012a0      0x187 ./build/cmsis/system_at32f415.o
- .debug_abbrev  0x0000000000001427      0x33e ./bsp/at32f415_board.o
- .debug_abbrev  0x0000000000001765      0x1d2 ./bsp/i2c.o
- .debug_abbrev  0x0000000000001937      0x28b ./bsp/i2c_application.o
- .debug_abbrev  0x0000000000001bc2      0x162 ./bsp/timer1.o
- .debug_abbrev  0x0000000000001d24       0x64 ./bsp/uid.o
+ .debug_abbrev  0x0000000000001427      0x33e ./build/bsp/at32f415_board.o
+ .debug_abbrev  0x0000000000001765      0x1d2 ./build/bsp/i2c.o
+ .debug_abbrev  0x0000000000001937      0x28b ./build/bsp/i2c_application.o
+ .debug_abbrev  0x0000000000001bc2      0x162 ./build/bsp/timer1.o
+ .debug_abbrev  0x0000000000001d24       0x64 ./build/bsp/uid.o
  .debug_abbrev  0x0000000000001d88       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .debug_abbrev  0x0000000000001d9c      0x163 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .debug_abbrev  0x0000000000001eff       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
@@ -2462,15 +2462,15 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_aranges
                 0x0000000000000770       0x28 ./build/cmsis/system_at32f415.o
  .debug_aranges
-                0x0000000000000798       0x90 ./bsp/at32f415_board.o
+                0x0000000000000798       0x90 ./build/bsp/at32f415_board.o
  .debug_aranges
-                0x0000000000000828       0x20 ./bsp/i2c.o
+                0x0000000000000828       0x20 ./build/bsp/i2c.o
  .debug_aranges
-                0x0000000000000848      0x140 ./bsp/i2c_application.o
+                0x0000000000000848      0x140 ./build/bsp/i2c_application.o
  .debug_aranges
-                0x0000000000000988       0x28 ./bsp/timer1.o
+                0x0000000000000988       0x28 ./build/bsp/timer1.o
  .debug_aranges
-                0x00000000000009b0       0x20 ./bsp/uid.o
+                0x00000000000009b0       0x20 ./build/bsp/uid.o
  .debug_aranges
                 0x00000000000009d0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .debug_aranges
@@ -2569,11 +2569,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_ranges  0x00000000000005b8       0xf0 ./firmware/at32f415_usart.o
  .debug_ranges  0x00000000000006a8       0x20 ./build/cmsis/startup_at32f415.o
  .debug_ranges  0x00000000000006c8       0x18 ./build/cmsis/system_at32f415.o
- .debug_ranges  0x00000000000006e0       0x80 ./bsp/at32f415_board.o
- .debug_ranges  0x0000000000000760       0x10 ./bsp/i2c.o
- .debug_ranges  0x0000000000000770      0x130 ./bsp/i2c_application.o
- .debug_ranges  0x00000000000008a0       0x18 ./bsp/timer1.o
- .debug_ranges  0x00000000000008b8       0x10 ./bsp/uid.o
+ .debug_ranges  0x00000000000006e0       0x80 ./build/bsp/at32f415_board.o
+ .debug_ranges  0x0000000000000760       0x10 ./build/bsp/i2c.o
+ .debug_ranges  0x0000000000000770      0x130 ./build/bsp/i2c_application.o
+ .debug_ranges  0x00000000000008a0       0x18 ./build/bsp/timer1.o
+ .debug_ranges  0x00000000000008b8       0x10 ./build/bsp/uid.o
  .debug_ranges  0x00000000000008c8       0xe8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .debug_ranges  0x00000000000009b0       0x58 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
  .debug_ranges  0x0000000000000a08       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
@@ -2601,11 +2601,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_line    0x00000000000026e1      0x481 ./firmware/at32f415_usart.o
  .debug_line    0x0000000000002b62       0x77 ./build/cmsis/startup_at32f415.o
  .debug_line    0x0000000000002bd9      0x2e9 ./build/cmsis/system_at32f415.o
- .debug_line    0x0000000000002ec2      0x51b ./bsp/at32f415_board.o
- .debug_line    0x00000000000033dd      0x18d ./bsp/i2c.o
- .debug_line    0x000000000000356a     0x1103 ./bsp/i2c_application.o
- .debug_line    0x000000000000466d      0x15b ./bsp/timer1.o
- .debug_line    0x00000000000047c8       0xc0 ./bsp/uid.o
+ .debug_line    0x0000000000002ec2      0x51b ./build/bsp/at32f415_board.o
+ .debug_line    0x00000000000033dd      0x18d ./build/bsp/i2c.o
+ .debug_line    0x000000000000356a     0x1103 ./build/bsp/i2c_application.o
+ .debug_line    0x000000000000466d      0x15b ./build/bsp/timer1.o
+ .debug_line    0x00000000000047c8       0xc0 ./build/bsp/uid.o
  .debug_line    0x0000000000004888       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .debug_line    0x00000000000048e8      0x5b4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .debug_line    0x0000000000004e9c       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
@@ -2674,15 +2674,15 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
                                          0x45 (size before relaxing)
  .debug_str     0x000000000000625c       0x63 ./build/cmsis/system_at32f415.o
                                         0x9e9 (size before relaxing)
- .debug_str     0x00000000000062bf      0x156 ./bsp/at32f415_board.o
+ .debug_str     0x00000000000062bf      0x156 ./build/bsp/at32f415_board.o
                                        0x149f (size before relaxing)
- .debug_str     0x0000000000006415       0x37 ./bsp/i2c.o
+ .debug_str     0x0000000000006415       0x37 ./build/bsp/i2c.o
                                        0x1197 (size before relaxing)
- .debug_str     0x000000000000644c      0x3ce ./bsp/i2c_application.o
+ .debug_str     0x000000000000644c      0x3ce ./build/bsp/i2c_application.o
                                         0xcb4 (size before relaxing)
- .debug_str     0x000000000000681a       0x4f ./bsp/timer1.o
+ .debug_str     0x000000000000681a       0x4f ./build/bsp/timer1.o
                                         0xd10 (size before relaxing)
- .debug_str     0x0000000000006869       0x15 ./bsp/uid.o
+ .debug_str     0x0000000000006869       0x15 ./build/bsp/uid.o
                                         0x14e (size before relaxing)
  .debug_str     0x000000000000687e       0xa3 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .debug_str     0x0000000000006921      0x54d /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
@@ -2780,11 +2780,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_frame   0x000000000000121c      0x89c ./firmware/at32f415_tmr.o
  .debug_frame   0x0000000000001ab8      0x490 ./firmware/at32f415_usart.o
  .debug_frame   0x0000000000001f48       0x60 ./build/cmsis/system_at32f415.o
- .debug_frame   0x0000000000001fa8      0x220 ./bsp/at32f415_board.o
- .debug_frame   0x00000000000021c8       0x34 ./bsp/i2c.o
- .debug_frame   0x00000000000021fc      0x564 ./bsp/i2c_application.o
- .debug_frame   0x0000000000002760       0x50 ./bsp/timer1.o
- .debug_frame   0x00000000000027b0       0x38 ./bsp/uid.o
+ .debug_frame   0x0000000000001fa8      0x220 ./build/bsp/at32f415_board.o
+ .debug_frame   0x00000000000021c8       0x34 ./build/bsp/i2c.o
+ .debug_frame   0x00000000000021fc      0x564 ./build/bsp/i2c_application.o
+ .debug_frame   0x0000000000002760       0x50 ./build/bsp/timer1.o
+ .debug_frame   0x00000000000027b0       0x38 ./build/bsp/uid.o
  .debug_frame   0x00000000000027e8       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .debug_frame   0x0000000000002814       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
  .debug_frame   0x0000000000002848       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
