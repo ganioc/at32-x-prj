@@ -3,6 +3,7 @@
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
+
 S_SRCS += \
 ./models/$(MODEL)/cmsis/startup_at32f415.s 
 
@@ -32,7 +33,7 @@ C_DEPS += \
 ./build/cmsis/%.o: ./models/$(MODEL)/cmsis/%.c ./build/cmsis/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: GNU Arm Cross C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -DAT_START_F415_V1 -DAT32F415RCT7 -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DUSE_STDPERIPH_DRIVER $(INCLUDE_PATH) -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g $(BOARD_NAME) -DAT32F415RCT7 -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DUSE_STDPERIPH_DRIVER $(INCLUDE_PATH) -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

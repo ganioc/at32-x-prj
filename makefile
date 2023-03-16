@@ -7,6 +7,9 @@
 RM := rm -rf
 
 MODEL = at32f415
+BOARD = AT_START_F415_V1
+BOARD_NAME = -D$(BOARD)
+OPTIMIZATION = -O0
 
 # All of the sources participating in the build are defined here
 ##-include sources.mk
@@ -58,7 +61,9 @@ LDSCRIPT_FILE = ./ldscripts/$(MODEL)/AT32F415xC_FLASH.ld
 INCLUDE_PATH =  -I"./models/$(MODEL)/include" \
 	-I"./models/$(MODEL)/include/libraries/drivers/inc" \
 	-I"./models/$(MODEL)/include/libraries/cmsis/cm4/core_support" \
-	-I"./models/$(MODEL)/include/libraries/cmsis/cm4/device_support"
+	-I"./models/$(MODEL)/include/libraries/cmsis/cm4/device_support" \
+	-I"./include"
+
 
 
 # All Target
