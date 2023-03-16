@@ -4,27 +4,27 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../firmware/at32f415_adc.c \
-../firmware/at32f415_can.c \
-../firmware/at32f415_cmp.c \
-../firmware/at32f415_crc.c \
-../firmware/at32f415_crm.c \
-../firmware/at32f415_debug.c \
-../firmware/at32f415_dma.c \
-../firmware/at32f415_ertc.c \
-../firmware/at32f415_exint.c \
-../firmware/at32f415_flash.c \
-../firmware/at32f415_gpio.c \
-../firmware/at32f415_i2c.c \
-../firmware/at32f415_misc.c \
-../firmware/at32f415_pwc.c \
-../firmware/at32f415_sdio.c \
-../firmware/at32f415_spi.c \
-../firmware/at32f415_tmr.c \
-../firmware/at32f415_usart.c \
-../firmware/at32f415_usb.c \
-../firmware/at32f415_wdt.c \
-../firmware/at32f415_wwdt.c 
+./models/$(MODEL)/firmware/at32f415_adc.c \
+./models/$(MODEL)/firmware/at32f415_can.c \
+./models/$(MODEL)/firmware/at32f415_cmp.c \
+./models/$(MODEL)/firmware/at32f415_crc.c \
+./models/$(MODEL)/firmware/at32f415_crm.c \
+./models/$(MODEL)/firmware/at32f415_debug.c \
+./models/$(MODEL)/firmware/at32f415_dma.c \
+./models/$(MODEL)/firmware/at32f415_ertc.c \
+./models/$(MODEL)/firmware/at32f415_exint.c \
+./models/$(MODEL)/firmware/at32f415_flash.c \
+./models/$(MODEL)/firmware/at32f415_gpio.c \
+./models/$(MODEL)/firmware/at32f415_i2c.c \
+./models/$(MODEL)/firmware/at32f415_misc.c \
+./models/$(MODEL)/firmware/at32f415_pwc.c \
+./models/$(MODEL)/firmware/at32f415_sdio.c \
+./models/$(MODEL)/firmware/at32f415_spi.c \
+./models/$(MODEL)/firmware/at32f415_tmr.c \
+./models/$(MODEL)/firmware/at32f415_usart.c \
+./models/$(MODEL)/firmware/at32f415_usb.c \
+./models/$(MODEL)/firmware/at32f415_wdt.c \
+./models/$(MODEL)/firmware/at32f415_wwdt.c 
 
 OBJS += \
 ./build/firmware/at32f415_adc.o \
