@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
-                              ./firmware/at32f415_crm.o (__aeabi_uldivmod)
+                              ./build/firmware/at32f415_crm.o (__aeabi_uldivmod)
 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
                               /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
@@ -125,1076 +125,1076 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./build/user/at32f415_int.o
  .text          0x0000000000000000        0x0 ./build/user/main.o
  .bss           0x0000000000000000        0x8 ./build/user/main.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_adc.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_adc.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_adc.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_adc.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_adc.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_adc.o
  .text.adc_reset
-                0x0000000000000000       0x30 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_adc.o
  .text.adc_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_base_default_para_init
-                0x0000000000000000       0x2a ./firmware/at32f415_adc.o
+                0x0000000000000000       0x2a ./build/firmware/at32f415_adc.o
  .text.adc_base_config
-                0x0000000000000000       0x68 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x68 ./build/firmware/at32f415_adc.o
  .text.adc_dma_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_interrupt_enable
-                0x0000000000000000       0x40 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x40 ./build/firmware/at32f415_adc.o
  .text.adc_calibration_init
-                0x0000000000000000       0x1c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_adc.o
  .text.adc_calibration_init_status_get
-                0x0000000000000000       0x26 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x26 ./build/firmware/at32f415_adc.o
  .text.adc_calibration_start
-                0x0000000000000000       0x1c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_adc.o
  .text.adc_calibration_status_get
-                0x0000000000000000       0x26 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x26 ./build/firmware/at32f415_adc.o
  .text.adc_voltage_monitor_enable
-                0x0000000000000000       0x3e ./firmware/at32f415_adc.o
+                0x0000000000000000       0x3e ./build/firmware/at32f415_adc.o
  .text.adc_voltage_monitor_threshold_value_set
-                0x0000000000000000       0x3e ./firmware/at32f415_adc.o
+                0x0000000000000000       0x3e ./build/firmware/at32f415_adc.o
  .text.adc_voltage_monitor_single_channel_select
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_ordinary_channel_set
-                0x0000000000000000      0x378 ./firmware/at32f415_adc.o
+                0x0000000000000000      0x378 ./build/firmware/at32f415_adc.o
  .text.adc_preempt_channel_length_set
-                0x0000000000000000       0x2c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_adc.o
  .text.adc_preempt_channel_set
-                0x0000000000000000      0x270 ./firmware/at32f415_adc.o
+                0x0000000000000000      0x270 ./build/firmware/at32f415_adc.o
  .text.adc_ordinary_conversion_trigger_set
-                0x0000000000000000       0x6c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x6c ./build/firmware/at32f415_adc.o
  .text.adc_preempt_conversion_trigger_set
-                0x0000000000000000       0x6c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x6c ./build/firmware/at32f415_adc.o
  .text.adc_preempt_offset_value_set
-                0x0000000000000000       0x88 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x88 ./build/firmware/at32f415_adc.o
  .text.adc_ordinary_part_count_set
-                0x0000000000000000       0x2c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_adc.o
  .text.adc_ordinary_part_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_preempt_part_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_preempt_auto_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_tempersensor_vintrv_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_adc.o
  .text.adc_ordinary_software_trigger_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_ordinary_software_trigger_status_get
-                0x0000000000000000       0x26 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x26 ./build/firmware/at32f415_adc.o
  .text.adc_preempt_software_trigger_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_adc.o
  .text.adc_preempt_software_trigger_status_get
-                0x0000000000000000       0x26 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x26 ./build/firmware/at32f415_adc.o
  .text.adc_ordinary_conversion_data_get
-                0x0000000000000000       0x18 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_adc.o
  .text.adc_preempt_conversion_data_get
-                0x0000000000000000       0x5c ./firmware/at32f415_adc.o
+                0x0000000000000000       0x5c ./build/firmware/at32f415_adc.o
  .text.adc_flag_get
-                0x0000000000000000       0x32 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x32 ./build/firmware/at32f415_adc.o
  .text.adc_flag_clear
-                0x0000000000000000       0x1c ./firmware/at32f415_adc.o
- .debug_info    0x0000000000000000     0x16e0 ./firmware/at32f415_adc.o
- .debug_abbrev  0x0000000000000000      0x235 ./firmware/at32f415_adc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_adc.o
+ .debug_info    0x0000000000000000     0x16e0 ./build/firmware/at32f415_adc.o
+ .debug_abbrev  0x0000000000000000      0x235 ./build/firmware/at32f415_adc.o
  .debug_aranges
-                0x0000000000000000      0x118 ./firmware/at32f415_adc.o
- .debug_ranges  0x0000000000000000      0x108 ./firmware/at32f415_adc.o
- .debug_line    0x0000000000000000      0x631 ./firmware/at32f415_adc.o
- .debug_str     0x0000000000000000     0x11e7 ./firmware/at32f415_adc.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_adc.o
- .debug_frame   0x0000000000000000      0x50c ./firmware/at32f415_adc.o
+                0x0000000000000000      0x118 ./build/firmware/at32f415_adc.o
+ .debug_ranges  0x0000000000000000      0x108 ./build/firmware/at32f415_adc.o
+ .debug_line    0x0000000000000000      0x631 ./build/firmware/at32f415_adc.o
+ .debug_str     0x0000000000000000     0x11e7 ./build/firmware/at32f415_adc.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_adc.o
+ .debug_frame   0x0000000000000000      0x50c ./build/firmware/at32f415_adc.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_adc.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_can.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_can.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_can.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_adc.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_can.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_can.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_can.o
  .text.can_reset
-                0x0000000000000000       0x24 ./firmware/at32f415_can.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_can.o
  .text.can_baudrate_default_para_init
-                0x0000000000000000       0x2a ./firmware/at32f415_can.o
+                0x0000000000000000       0x2a ./build/firmware/at32f415_can.o
  .text.can_baudrate_set
-                0x0000000000000000      0x100 ./firmware/at32f415_can.o
+                0x0000000000000000      0x100 ./build/firmware/at32f415_can.o
  .text.can_default_para_init
-                0x0000000000000000       0x3c ./firmware/at32f415_can.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_can.o
  .text.can_base_init
-                0x0000000000000000      0x150 ./firmware/at32f415_can.o
+                0x0000000000000000      0x150 ./build/firmware/at32f415_can.o
  .text.can_filter_default_para_init
-                0x0000000000000000       0x48 ./firmware/at32f415_can.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_can.o
  .text.can_filter_init
-                0x0000000000000000      0x212 ./firmware/at32f415_can.o
+                0x0000000000000000      0x212 ./build/firmware/at32f415_can.o
  .text.can_debug_transmission_prohibit
-                0x0000000000000000       0x28 ./firmware/at32f415_can.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_can.o
  .text.can_ttc_mode_enable
-                0x0000000000000000       0x6a ./firmware/at32f415_can.o
+                0x0000000000000000       0x6a ./build/firmware/at32f415_can.o
  .text.can_message_transmit
-                0x0000000000000000      0x18a ./firmware/at32f415_can.o
+                0x0000000000000000      0x18a ./build/firmware/at32f415_can.o
  .text.can_transmit_status_get
-                0x0000000000000000       0xc0 ./firmware/at32f415_can.o
+                0x0000000000000000       0xc0 ./build/firmware/at32f415_can.o
  .text.can_transmit_cancel
-                0x0000000000000000       0x48 ./firmware/at32f415_can.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_can.o
  .text.can_message_receive
-                0x0000000000000000      0x176 ./firmware/at32f415_can.o
+                0x0000000000000000      0x176 ./build/firmware/at32f415_can.o
  .text.can_receive_fifo_release
-                0x0000000000000000       0x32 ./firmware/at32f415_can.o
+                0x0000000000000000       0x32 ./build/firmware/at32f415_can.o
  .text.can_receive_message_pending_get
-                0x0000000000000000       0x44 ./firmware/at32f415_can.o
+                0x0000000000000000       0x44 ./build/firmware/at32f415_can.o
  .text.can_operating_mode_set
-                0x0000000000000000      0x16a ./firmware/at32f415_can.o
+                0x0000000000000000      0x16a ./build/firmware/at32f415_can.o
  .text.can_doze_mode_enter
-                0x0000000000000000       0x82 ./firmware/at32f415_can.o
+                0x0000000000000000       0x82 ./build/firmware/at32f415_can.o
  .text.can_doze_mode_exit
-                0x0000000000000000       0x56 ./firmware/at32f415_can.o
+                0x0000000000000000       0x56 ./build/firmware/at32f415_can.o
  .text.can_error_type_record_get
-                0x0000000000000000       0x24 ./firmware/at32f415_can.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_can.o
  .text.can_receive_error_counter_get
-                0x0000000000000000       0x22 ./firmware/at32f415_can.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_can.o
  .text.can_transmit_error_counter_get
-                0x0000000000000000       0x22 ./firmware/at32f415_can.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_can.o
  .text.can_interrupt_enable
-                0x0000000000000000       0x3a ./firmware/at32f415_can.o
+                0x0000000000000000       0x3a ./build/firmware/at32f415_can.o
  .text.can_flag_get
-                0x0000000000000000      0x1cc ./firmware/at32f415_can.o
+                0x0000000000000000      0x1cc ./build/firmware/at32f415_can.o
  .text.can_flag_clear
-                0x0000000000000000       0xd8 ./firmware/at32f415_can.o
- .debug_info    0x0000000000000000     0x20dc ./firmware/at32f415_can.o
- .debug_abbrev  0x0000000000000000      0x268 ./firmware/at32f415_can.o
+                0x0000000000000000       0xd8 ./build/firmware/at32f415_can.o
+ .debug_info    0x0000000000000000     0x20dc ./build/firmware/at32f415_can.o
+ .debug_abbrev  0x0000000000000000      0x268 ./build/firmware/at32f415_can.o
  .debug_aranges
-                0x0000000000000000       0xd8 ./firmware/at32f415_can.o
- .debug_ranges  0x0000000000000000       0xc8 ./firmware/at32f415_can.o
- .debug_line    0x0000000000000000      0x9ed ./firmware/at32f415_can.o
- .debug_str     0x0000000000000000     0x1587 ./firmware/at32f415_can.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_can.o
- .debug_frame   0x0000000000000000      0x3c8 ./firmware/at32f415_can.o
+                0x0000000000000000       0xd8 ./build/firmware/at32f415_can.o
+ .debug_ranges  0x0000000000000000       0xc8 ./build/firmware/at32f415_can.o
+ .debug_line    0x0000000000000000      0x9ed ./build/firmware/at32f415_can.o
+ .debug_str     0x0000000000000000     0x1587 ./build/firmware/at32f415_can.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_can.o
+ .debug_frame   0x0000000000000000      0x3c8 ./build/firmware/at32f415_can.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_can.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_cmp.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_cmp.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_can.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_cmp.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_cmp.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_cmp.o
  .text.cmp_reset
-                0x0000000000000000       0x1c ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_cmp.o
  .text.cmp_init
-                0x0000000000000000      0x114 ./firmware/at32f415_cmp.o
+                0x0000000000000000      0x114 ./build/firmware/at32f415_cmp.o
  .text.cmp_default_para_init
-                0x0000000000000000       0x36 ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x36 ./build/firmware/at32f415_cmp.o
  .text.cmp_enable
-                0x0000000000000000       0x4c ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x4c ./build/firmware/at32f415_cmp.o
  .text.cmp_input_shift_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_cmp.o
  .text.cmp_output_value_get
-                0x0000000000000000       0x40 ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x40 ./build/firmware/at32f415_cmp.o
  .text.cmp_write_protect_enable
-                0x0000000000000000       0x34 ./firmware/at32f415_cmp.o
- .debug_info    0x0000000000000000      0x6e9 ./firmware/at32f415_cmp.o
- .debug_abbrev  0x0000000000000000      0x142 ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_cmp.o
+ .debug_info    0x0000000000000000      0x6e9 ./build/firmware/at32f415_cmp.o
+ .debug_abbrev  0x0000000000000000      0x142 ./build/firmware/at32f415_cmp.o
  .debug_aranges
-                0x0000000000000000       0x50 ./firmware/at32f415_cmp.o
- .debug_ranges  0x0000000000000000       0x40 ./firmware/at32f415_cmp.o
- .debug_line    0x0000000000000000      0x279 ./firmware/at32f415_cmp.o
- .debug_str     0x0000000000000000      0x8fe ./firmware/at32f415_cmp.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_cmp.o
- .debug_frame   0x0000000000000000      0x11c ./firmware/at32f415_cmp.o
+                0x0000000000000000       0x50 ./build/firmware/at32f415_cmp.o
+ .debug_ranges  0x0000000000000000       0x40 ./build/firmware/at32f415_cmp.o
+ .debug_line    0x0000000000000000      0x279 ./build/firmware/at32f415_cmp.o
+ .debug_str     0x0000000000000000      0x8fe ./build/firmware/at32f415_cmp.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_cmp.o
+ .debug_frame   0x0000000000000000      0x11c ./build/firmware/at32f415_cmp.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_cmp.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_crc.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_crc.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_crc.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_cmp.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_crc.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_crc.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_crc.o
  .text.crc_data_reset
-                0x0000000000000000       0x1c ./firmware/at32f415_crc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_crc.o
  .text.crc_one_word_calculate
-                0x0000000000000000       0x20 ./firmware/at32f415_crc.o
+                0x0000000000000000       0x20 ./build/firmware/at32f415_crc.o
  .text.crc_block_calculate
-                0x0000000000000000       0x44 ./firmware/at32f415_crc.o
+                0x0000000000000000       0x44 ./build/firmware/at32f415_crc.o
  .text.crc_data_get
-                0x0000000000000000       0x14 ./firmware/at32f415_crc.o
+                0x0000000000000000       0x14 ./build/firmware/at32f415_crc.o
  .text.crc_common_data_set
-                0x0000000000000000       0x24 ./firmware/at32f415_crc.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_crc.o
  .text.crc_common_date_get
-                0x0000000000000000       0x18 ./firmware/at32f415_crc.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_crc.o
  .text.crc_init_data_set
-                0x0000000000000000       0x1c ./firmware/at32f415_crc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_crc.o
  .text.crc_reverse_input_data_set
-                0x0000000000000000       0x2c ./firmware/at32f415_crc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crc.o
  .text.crc_reverse_output_data_set
-                0x0000000000000000       0x2c ./firmware/at32f415_crc.o
- .debug_info    0x0000000000000000      0x3aa ./firmware/at32f415_crc.o
- .debug_abbrev  0x0000000000000000      0x17b ./firmware/at32f415_crc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crc.o
+ .debug_info    0x0000000000000000      0x3aa ./build/firmware/at32f415_crc.o
+ .debug_abbrev  0x0000000000000000      0x17b ./build/firmware/at32f415_crc.o
  .debug_aranges
-                0x0000000000000000       0x60 ./firmware/at32f415_crc.o
- .debug_ranges  0x0000000000000000       0x50 ./firmware/at32f415_crc.o
- .debug_line    0x0000000000000000      0x1c5 ./firmware/at32f415_crc.o
- .debug_str     0x0000000000000000      0x350 ./firmware/at32f415_crc.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_crc.o
- .debug_frame   0x0000000000000000      0x160 ./firmware/at32f415_crc.o
+                0x0000000000000000       0x60 ./build/firmware/at32f415_crc.o
+ .debug_ranges  0x0000000000000000       0x50 ./build/firmware/at32f415_crc.o
+ .debug_line    0x0000000000000000      0x1c5 ./build/firmware/at32f415_crc.o
+ .debug_str     0x0000000000000000      0x350 ./build/firmware/at32f415_crc.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_crc.o
+ .debug_frame   0x0000000000000000      0x160 ./build/firmware/at32f415_crc.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_crc.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_crm.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_crm.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_crc.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_crm.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_crm.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_crm.o
  .text.crm_lext_bypass
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_hext_bypass
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_hick_clock_trimming_set
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_hick_clock_calibration_set
-                0x0000000000000000       0x3c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_crm.o
  .text.crm_periph_sleep_mode_clock_enable
-                0x0000000000000000       0x7a ./firmware/at32f415_crm.o
+                0x0000000000000000       0x7a ./build/firmware/at32f415_crm.o
  .text.crm_flag_clear
-                0x0000000000000000       0xe0 ./firmware/at32f415_crm.o
+                0x0000000000000000       0xe0 ./build/firmware/at32f415_crm.o
  .text.crm_ertc_clock_select
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_ertc_clock_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_adc_clock_div_set
-                0x0000000000000000       0x40 ./firmware/at32f415_crm.o
+                0x0000000000000000       0x40 ./build/firmware/at32f415_crm.o
  .text.crm_usb_clock_div_set
-                0x0000000000000000       0x40 ./firmware/at32f415_crm.o
+                0x0000000000000000       0x40 ./build/firmware/at32f415_crm.o
  .text.crm_clock_failure_detection_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_battery_powered_domain_reset
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_pll_config2
-                0x0000000000000000       0xa4 ./firmware/at32f415_crm.o
+                0x0000000000000000       0xa4 ./build/firmware/at32f415_crm.o
  .text.crm_clock_out_set
-                0x0000000000000000       0x40 ./firmware/at32f415_crm.o
+                0x0000000000000000       0x40 ./build/firmware/at32f415_crm.o
  .text.crm_interrupt_enable
-                0x0000000000000000       0x3c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_crm.o
  .text.crm_hick_divider_select
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_hick_sclk_frequency_select
-                0x0000000000000000       0x30 ./firmware/at32f415_crm.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_crm.o
  .text.crm_usb_clock_source_select
-                0x0000000000000000       0x34 ./firmware/at32f415_crm.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_crm.o
  .text.crm_clkout_div_set
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_otgfs_ep3_remap_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
  .text.crm_usbdiv_reset
-                0x0000000000000000       0x2c ./firmware/at32f415_crm.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_debug.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_debug.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_debug.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_crm.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_debug.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_debug.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_debug.o
  .text.debug_device_id_get
-                0x0000000000000000       0x14 ./firmware/at32f415_debug.o
+                0x0000000000000000       0x14 ./build/firmware/at32f415_debug.o
  .text.debug_periph_mode_set
-                0x0000000000000000       0x3c ./firmware/at32f415_debug.o
- .debug_info    0x0000000000000000      0x339 ./firmware/at32f415_debug.o
- .debug_abbrev  0x0000000000000000      0x118 ./firmware/at32f415_debug.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_debug.o
+ .debug_info    0x0000000000000000      0x339 ./build/firmware/at32f415_debug.o
+ .debug_abbrev  0x0000000000000000      0x118 ./build/firmware/at32f415_debug.o
  .debug_aranges
-                0x0000000000000000       0x28 ./firmware/at32f415_debug.o
- .debug_ranges  0x0000000000000000       0x18 ./firmware/at32f415_debug.o
- .debug_line    0x0000000000000000      0x122 ./firmware/at32f415_debug.o
- .debug_str     0x0000000000000000      0x320 ./firmware/at32f415_debug.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_debug.o
- .debug_frame   0x0000000000000000       0x58 ./firmware/at32f415_debug.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_debug.o
+ .debug_ranges  0x0000000000000000       0x18 ./build/firmware/at32f415_debug.o
+ .debug_line    0x0000000000000000      0x122 ./build/firmware/at32f415_debug.o
+ .debug_str     0x0000000000000000      0x320 ./build/firmware/at32f415_debug.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_debug.o
+ .debug_frame   0x0000000000000000       0x58 ./build/firmware/at32f415_debug.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_debug.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_dma.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_dma.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_dma.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_debug.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_dma.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_dma.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_dma.o
  .text.dma_reset
-                0x0000000000000000       0xac ./firmware/at32f415_dma.o
+                0x0000000000000000       0xac ./build/firmware/at32f415_dma.o
  .text.dma_data_number_set
-                0x0000000000000000       0x1c ./firmware/at32f415_dma.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_dma.o
  .text.dma_data_number_get
-                0x0000000000000000       0x18 ./firmware/at32f415_dma.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_dma.o
  .text.dma_interrupt_enable
-                0x0000000000000000       0x3a ./firmware/at32f415_dma.o
+                0x0000000000000000       0x3a ./build/firmware/at32f415_dma.o
  .text.dma_channel_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_dma.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_dma.o
  .text.dma_flexible_config
-                0x0000000000000000       0xde ./firmware/at32f415_dma.o
+                0x0000000000000000       0xde ./build/firmware/at32f415_dma.o
  .text.dma_flag_get
-                0x0000000000000000       0x50 ./firmware/at32f415_dma.o
+                0x0000000000000000       0x50 ./build/firmware/at32f415_dma.o
  .text.dma_flag_clear
-                0x0000000000000000       0x34 ./firmware/at32f415_dma.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_dma.o
  .text.dma_default_para_init
-                0x0000000000000000       0x4e ./firmware/at32f415_dma.o
+                0x0000000000000000       0x4e ./build/firmware/at32f415_dma.o
  .text.dma_init
-                0x0000000000000000       0xc2 ./firmware/at32f415_dma.o
- .debug_info    0x0000000000000000      0xd5a ./firmware/at32f415_dma.o
- .debug_abbrev  0x0000000000000000      0x201 ./firmware/at32f415_dma.o
+                0x0000000000000000       0xc2 ./build/firmware/at32f415_dma.o
+ .debug_info    0x0000000000000000      0xd5a ./build/firmware/at32f415_dma.o
+ .debug_abbrev  0x0000000000000000      0x201 ./build/firmware/at32f415_dma.o
  .debug_aranges
-                0x0000000000000000       0x68 ./firmware/at32f415_dma.o
- .debug_ranges  0x0000000000000000       0x58 ./firmware/at32f415_dma.o
- .debug_line    0x0000000000000000      0x310 ./firmware/at32f415_dma.o
- .debug_str     0x0000000000000000      0xc01 ./firmware/at32f415_dma.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_dma.o
- .debug_frame   0x0000000000000000      0x1a0 ./firmware/at32f415_dma.o
+                0x0000000000000000       0x68 ./build/firmware/at32f415_dma.o
+ .debug_ranges  0x0000000000000000       0x58 ./build/firmware/at32f415_dma.o
+ .debug_line    0x0000000000000000      0x310 ./build/firmware/at32f415_dma.o
+ .debug_str     0x0000000000000000      0xc01 ./build/firmware/at32f415_dma.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_dma.o
+ .debug_frame   0x0000000000000000      0x1a0 ./build/firmware/at32f415_dma.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_dma.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_ertc.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_ertc.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_dma.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_ertc.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_ertc.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_ertc.o
  .text.ertc_num_to_bcd
-                0x0000000000000000       0x50 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x50 ./build/firmware/at32f415_ertc.o
  .text.ertc_bcd_to_num
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_write_protect_enable
-                0x0000000000000000       0x18 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_ertc.o
  .text.ertc_write_protect_disable
-                0x0000000000000000       0x1c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_ertc.o
  .text.ertc_wait_update
-                0x0000000000000000       0x58 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x58 ./build/firmware/at32f415_ertc.o
  .text.ertc_wait_flag
-                0x0000000000000000       0x42 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x42 ./build/firmware/at32f415_ertc.o
  .text.ertc_init_mode_enter
-                0x0000000000000000       0x58 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x58 ./build/firmware/at32f415_ertc.o
  .text.ertc_init_mode_exit
-                0x0000000000000000       0x18 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_ertc.o
  .text.ertc_reset
-                0x0000000000000000       0x8c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x8c ./build/firmware/at32f415_ertc.o
  .text.ertc_divider_set
-                0x0000000000000000       0x5c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x5c ./build/firmware/at32f415_ertc.o
  .text.ertc_hour_mode_set
-                0x0000000000000000       0x44 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x44 ./build/firmware/at32f415_ertc.o
  .text.ertc_date_set
-                0x0000000000000000       0xb8 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0xb8 ./build/firmware/at32f415_ertc.o
  .text.ertc_time_set
-                0x0000000000000000       0xbc ./firmware/at32f415_ertc.o
+                0x0000000000000000       0xbc ./build/firmware/at32f415_ertc.o
  .text.ertc_calendar_get
-                0x0000000000000000       0xc4 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0xc4 ./build/firmware/at32f415_ertc.o
  .text.ertc_sub_second_get
-                0x0000000000000000       0x24 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_ertc.o
  .text.ertc_alarm_mask_set
-                0x0000000000000000       0x60 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x60 ./build/firmware/at32f415_ertc.o
  .text.ertc_alarm_week_date_select
-                0x0000000000000000       0x50 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x50 ./build/firmware/at32f415_ertc.o
  .text.ertc_alarm_set
-                0x0000000000000000       0xd0 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0xd0 ./build/firmware/at32f415_ertc.o
  .text.ertc_alarm_sub_second_set
-                0x0000000000000000       0x74 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x74 ./build/firmware/at32f415_ertc.o
  .text.ertc_alarm_enable
-                0x0000000000000000       0x80 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x80 ./build/firmware/at32f415_ertc.o
  .text.ertc_alarm_get
-                0x0000000000000000       0xc4 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0xc4 ./build/firmware/at32f415_ertc.o
  .text.ertc_alarm_sub_second_get
-                0x0000000000000000       0x34 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_ertc.o
  .text.ertc_wakeup_clock_set
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_wakeup_counter_set
-                0x0000000000000000       0x2c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_ertc.o
  .text.ertc_wakeup_counter_get
-                0x0000000000000000       0x18 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_ertc.o
  .text.ertc_wakeup_enable
-                0x0000000000000000       0x4c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x4c ./build/firmware/at32f415_ertc.o
  .text.ertc_smooth_calibration_config
-                0x0000000000000000       0x94 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x94 ./build/firmware/at32f415_ertc.o
  .text.ertc_coarse_calibration_set
-                0x0000000000000000       0x58 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x58 ./build/firmware/at32f415_ertc.o
  .text.ertc_coarse_calibration_enable
-                0x0000000000000000       0x44 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x44 ./build/firmware/at32f415_ertc.o
  .text.ertc_cal_output_select
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_cal_output_enable
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_time_adjust
-                0x0000000000000000       0x80 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x80 ./build/firmware/at32f415_ertc.o
  .text.ertc_daylight_set
-                0x0000000000000000       0x54 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x54 ./build/firmware/at32f415_ertc.o
  .text.ertc_daylight_bpr_get
-                0x0000000000000000       0x1c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_ertc.o
  .text.ertc_refer_clock_detect_enable
-                0x0000000000000000       0x44 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x44 ./build/firmware/at32f415_ertc.o
  .text.ertc_direct_read_enable
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_output_set
-                0x0000000000000000       0x5c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x5c ./build/firmware/at32f415_ertc.o
  .text.ertc_timestamp_valid_edge_set
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_timestamp_enable
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_timestamp_get
-                0x0000000000000000       0xb8 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0xb8 ./build/firmware/at32f415_ertc.o
  .text.ertc_timestamp_sub_second_get
-                0x0000000000000000       0x18 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_ertc.o
  .text.ertc_tamper_pull_up_enable
-                0x0000000000000000       0x34 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_ertc.o
  .text.ertc_tamper_precharge_set
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_tamper_filter_set
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_tamper_detect_freq_set
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_tamper_valid_edge_set
-                0x0000000000000000       0x3c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_ertc.o
  .text.ertc_tamper_timestamp_enable
-                0x0000000000000000       0x30 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_ertc.o
  .text.ertc_tamper_enable
-                0x0000000000000000       0x3c ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_ertc.o
  .text.ertc_interrupt_enable
-                0x0000000000000000       0x74 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x74 ./build/firmware/at32f415_ertc.o
  .text.ertc_interrupt_get
-                0x0000000000000000       0x48 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_ertc.o
  .text.ertc_flag_get
-                0x0000000000000000       0x28 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_ertc.o
  .text.ertc_flag_clear
-                0x0000000000000000       0x34 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_ertc.o
  .text.ertc_bpr_data_write
-                0x0000000000000000       0x38 ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x38 ./build/firmware/at32f415_ertc.o
  .text.ertc_bpr_data_read
-                0x0000000000000000       0x2c ./firmware/at32f415_ertc.o
- .debug_info    0x0000000000000000     0x28b2 ./firmware/at32f415_ertc.o
- .debug_abbrev  0x0000000000000000      0x2ba ./firmware/at32f415_ertc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_ertc.o
+ .debug_info    0x0000000000000000     0x28b2 ./build/firmware/at32f415_ertc.o
+ .debug_abbrev  0x0000000000000000      0x2ba ./build/firmware/at32f415_ertc.o
  .debug_aranges
-                0x0000000000000000      0x1c8 ./firmware/at32f415_ertc.o
- .debug_ranges  0x0000000000000000      0x1b8 ./firmware/at32f415_ertc.o
- .debug_line    0x0000000000000000      0xb87 ./firmware/at32f415_ertc.o
- .debug_str     0x0000000000000000     0x14f7 ./firmware/at32f415_ertc.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_ertc.o
- .debug_frame   0x0000000000000000      0x7b4 ./firmware/at32f415_ertc.o
+                0x0000000000000000      0x1c8 ./build/firmware/at32f415_ertc.o
+ .debug_ranges  0x0000000000000000      0x1b8 ./build/firmware/at32f415_ertc.o
+ .debug_line    0x0000000000000000      0xb87 ./build/firmware/at32f415_ertc.o
+ .debug_str     0x0000000000000000     0x14f7 ./build/firmware/at32f415_ertc.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_ertc.o
+ .debug_frame   0x0000000000000000      0x7b4 ./build/firmware/at32f415_ertc.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_ertc.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_exint.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_exint.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_exint.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_ertc.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_exint.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_exint.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_exint.o
  .text.exint_reset
-                0x0000000000000000       0x34 ./firmware/at32f415_exint.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_exint.o
  .text.exint_flag_get
-                0x0000000000000000       0x3c ./firmware/at32f415_exint.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_exint.o
  .text.exint_software_interrupt_event_generate
-                0x0000000000000000       0x24 ./firmware/at32f415_exint.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_exint.o
  .text.exint_interrupt_enable
-                0x0000000000000000       0x3c ./firmware/at32f415_exint.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_exint.o
  .text.exint_event_enable
-                0x0000000000000000       0x3c ./firmware/at32f415_exint.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_flash.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_flash.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_exint.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_flash.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_flash.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_flash.o
  .text.flash_flag_get
-                0x0000000000000000       0x68 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x68 ./build/firmware/at32f415_flash.o
  .text.flash_flag_clear
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
  .text.flash_operation_status_get
-                0x0000000000000000       0x5c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x5c ./build/firmware/at32f415_flash.o
  .text.flash_operation_wait_for
-                0x0000000000000000       0x44 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x44 ./build/firmware/at32f415_flash.o
  .text.flash_unlock
-                0x0000000000000000       0x24 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_flash.o
  .text.flash_lock
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
  .text.flash_sector_erase
-                0x0000000000000000       0x5c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x5c ./build/firmware/at32f415_flash.o
  .text.flash_internal_all_erase
-                0x0000000000000000       0x54 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x54 ./build/firmware/at32f415_flash.o
  .text.flash_user_system_data_erase
-                0x0000000000000000       0xc0 ./firmware/at32f415_flash.o
+                0x0000000000000000       0xc0 ./build/firmware/at32f415_flash.o
  .text.flash_word_program
-                0x0000000000000000       0x54 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x54 ./build/firmware/at32f415_flash.o
  .text.flash_halfword_program
-                0x0000000000000000       0x58 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x58 ./build/firmware/at32f415_flash.o
  .text.flash_byte_program
-                0x0000000000000000       0x58 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x58 ./build/firmware/at32f415_flash.o
  .text.flash_user_system_data_program
-                0x0000000000000000       0x7c ./firmware/at32f415_flash.o
- .rodata        0x0000000000000000        0x8 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x7c ./build/firmware/at32f415_flash.o
+ .rodata        0x0000000000000000        0x8 ./build/firmware/at32f415_flash.o
  .text.flash_epp_set
-                0x0000000000000000      0x114 ./firmware/at32f415_flash.o
+                0x0000000000000000      0x114 ./build/firmware/at32f415_flash.o
  .text.flash_epp_status_get
-                0x0000000000000000       0x20 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x20 ./build/firmware/at32f415_flash.o
  .text.flash_fap_enable
-                0x0000000000000000       0xb4 ./firmware/at32f415_flash.o
+                0x0000000000000000       0xb4 ./build/firmware/at32f415_flash.o
  .text.flash_fap_status_get
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
  .text.flash_fap_high_level_enable
-                0x0000000000000000      0x120 ./firmware/at32f415_flash.o
+                0x0000000000000000      0x120 ./build/firmware/at32f415_flash.o
  .text.flash_fap_high_level_status_get
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
  .text.flash_ssb_set
-                0x0000000000000000       0x80 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x80 ./build/firmware/at32f415_flash.o
  .text.flash_ssb_status_get
-                0x0000000000000000       0x18 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_flash.o
  .text.flash_interrupt_enable
-                0x0000000000000000       0x54 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x54 ./build/firmware/at32f415_flash.o
  .text.flash_slib_enable
-                0x0000000000000000       0xc8 ./firmware/at32f415_flash.o
+                0x0000000000000000       0xc8 ./build/firmware/at32f415_flash.o
  .text.flash_slib_disable
-                0x0000000000000000       0x4c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x4c ./build/firmware/at32f415_flash.o
  .text.flash_slib_state_get
-                0x0000000000000000       0x24 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_flash.o
  .text.flash_slib_start_sector_get
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
  .text.flash_slib_datastart_sector_get
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
  .text.flash_slib_end_sector_get
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
  .text.flash_crc_calibrate
-                0x0000000000000000       0x38 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x38 ./build/firmware/at32f415_flash.o
  .text.flash_boot_memory_extension_mode_enable
-                0x0000000000000000       0x48 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_flash.o
  .text.flash_extension_memory_slib_enable
-                0x0000000000000000       0x80 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x80 ./build/firmware/at32f415_flash.o
  .text.flash_extension_memory_slib_state_get
-                0x0000000000000000       0x24 ./firmware/at32f415_flash.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_flash.o
  .text.flash_em_slib_datastart_sector_get
-                0x0000000000000000       0x1c ./firmware/at32f415_flash.o
- .debug_info    0x0000000000000000     0x116b ./firmware/at32f415_flash.o
- .debug_abbrev  0x0000000000000000      0x30c ./firmware/at32f415_flash.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_flash.o
+ .debug_info    0x0000000000000000     0x116b ./build/firmware/at32f415_flash.o
+ .debug_abbrev  0x0000000000000000      0x30c ./build/firmware/at32f415_flash.o
  .debug_aranges
-                0x0000000000000000      0x120 ./firmware/at32f415_flash.o
- .debug_ranges  0x0000000000000000      0x110 ./firmware/at32f415_flash.o
- .debug_line    0x0000000000000000      0x8da ./firmware/at32f415_flash.o
- .debug_str     0x0000000000000000      0x9aa ./firmware/at32f415_flash.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_flash.o
- .debug_frame   0x0000000000000000      0x494 ./firmware/at32f415_flash.o
+                0x0000000000000000      0x120 ./build/firmware/at32f415_flash.o
+ .debug_ranges  0x0000000000000000      0x110 ./build/firmware/at32f415_flash.o
+ .debug_line    0x0000000000000000      0x8da ./build/firmware/at32f415_flash.o
+ .debug_str     0x0000000000000000      0x9aa ./build/firmware/at32f415_flash.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_flash.o
+ .debug_frame   0x0000000000000000      0x494 ./build/firmware/at32f415_flash.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_flash.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_gpio.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_gpio.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_flash.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_gpio.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_gpio.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_gpio.o
  .text.gpio_reset
-                0x0000000000000000       0xb8 ./firmware/at32f415_gpio.o
+                0x0000000000000000       0xb8 ./build/firmware/at32f415_gpio.o
  .text.gpio_iomux_reset
-                0x0000000000000000       0x1c ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_gpio.o
  .text.gpio_input_data_read
-                0x0000000000000000       0x18 ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_gpio.o
  .text.gpio_output_data_bit_read
-                0x0000000000000000       0x32 ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x32 ./build/firmware/at32f415_gpio.o
  .text.gpio_output_data_read
-                0x0000000000000000       0x18 ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_gpio.o
  .text.gpio_bits_set
-                0x0000000000000000       0x1c ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_gpio.o
  .text.gpio_bits_reset
-                0x0000000000000000       0x1c ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_gpio.o
  .text.gpio_bits_write
-                0x0000000000000000       0x2e ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_gpio.o
  .text.gpio_port_wirte
-                0x0000000000000000       0x1c ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_gpio.o
  .text.gpio_pin_wp_config
-                0x0000000000000000       0x42 ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x42 ./build/firmware/at32f415_gpio.o
  .text.gpio_event_output_config
-                0x0000000000000000       0x48 ./firmware/at32f415_gpio.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_gpio.o
  .text.gpio_event_output_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_gpio.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_i2c.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_i2c.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_gpio.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_i2c.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_i2c.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_i2c.o
  .text.i2c_software_reset
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_own_address2_set
-                0x0000000000000000       0x2c ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_i2c.o
  .text.i2c_own_address2_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_smbus_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_fast_mode_duty_set
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_clock_stretch_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_i2c.o
  .text.i2c_ack_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_pec_position_set
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_general_call_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_arp_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_smbus_mode_set
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_smbus_alert_set
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_pec_transmit_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_pec_calculate_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_pec_value_get
-                0x0000000000000000       0x1c ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_i2c.o
  .text.i2c_dma_end_transfer_set
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_dma_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_i2c.o
  .text.i2c_interrupt_enable
-                0x0000000000000000       0x3e ./firmware/at32f415_i2c.o
+                0x0000000000000000       0x3e ./build/firmware/at32f415_i2c.o
  .text.i2c_data_receive
-                0x0000000000000000       0x18 ./firmware/at32f415_i2c.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_misc.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_misc.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_misc.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_i2c.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_misc.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_misc.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_misc.o
  .text.__NVIC_DisableIRQ
-                0x0000000000000000       0x48 ./firmware/at32f415_misc.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_misc.o
  .text.__NVIC_SystemReset
-                0x0000000000000000       0x2c ./firmware/at32f415_misc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_misc.o
  .text.nvic_system_reset
-                0x0000000000000000        0x8 ./firmware/at32f415_misc.o
+                0x0000000000000000        0x8 ./build/firmware/at32f415_misc.o
  .text.nvic_irq_disable
-                0x0000000000000000       0x1c ./firmware/at32f415_misc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_misc.o
  .text.nvic_vector_table_set
-                0x0000000000000000       0x2c ./firmware/at32f415_misc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_misc.o
  .text.nvic_lowpower_mode_config
-                0x0000000000000000       0x40 ./firmware/at32f415_misc.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_pwc.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_pwc.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x40 ./build/firmware/at32f415_misc.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_pwc.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_pwc.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_pwc.o
  .text.pwc_reset
-                0x0000000000000000       0x1c ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_pwc.o
  .text.pwc_battery_powered_domain_access
-                0x0000000000000000       0x2c ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_pwc.o
  .text.pwc_pvm_level_select
-                0x0000000000000000       0x2c ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_pwc.o
  .text.pwc_power_voltage_monitor_enable
-                0x0000000000000000       0x2c ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_pwc.o
  .text.pwc_wakeup_pin_enable
-                0x0000000000000000       0x3c ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_pwc.o
  .text.pwc_flag_clear
-                0x0000000000000000       0x40 ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x40 ./build/firmware/at32f415_pwc.o
  .text.pwc_flag_get
-                0x0000000000000000       0x34 ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_pwc.o
  .text.pwc_sleep_mode_enter
-                0x0000000000000000       0x3c ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_pwc.o
  .text.pwc_deep_sleep_mode_enter
-                0x0000000000000000       0x48 ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_pwc.o
  .text.pwc_voltage_regulate_set
-                0x0000000000000000       0x2c ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_pwc.o
  .text.pwc_standby_mode_enter
-                0x0000000000000000       0x38 ./firmware/at32f415_pwc.o
- .debug_info    0x0000000000000000      0x75f ./firmware/at32f415_pwc.o
- .debug_abbrev  0x0000000000000000      0x1bb ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x38 ./build/firmware/at32f415_pwc.o
+ .debug_info    0x0000000000000000      0x75f ./build/firmware/at32f415_pwc.o
+ .debug_abbrev  0x0000000000000000      0x1bb ./build/firmware/at32f415_pwc.o
  .debug_aranges
-                0x0000000000000000       0x70 ./firmware/at32f415_pwc.o
- .debug_ranges  0x0000000000000000       0x60 ./firmware/at32f415_pwc.o
- .debug_line    0x0000000000000000      0x2a0 ./firmware/at32f415_pwc.o
- .debug_str     0x0000000000000000      0x7b0 ./firmware/at32f415_pwc.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_pwc.o
- .debug_frame   0x0000000000000000      0x1b4 ./firmware/at32f415_pwc.o
+                0x0000000000000000       0x70 ./build/firmware/at32f415_pwc.o
+ .debug_ranges  0x0000000000000000       0x60 ./build/firmware/at32f415_pwc.o
+ .debug_line    0x0000000000000000      0x2a0 ./build/firmware/at32f415_pwc.o
+ .debug_str     0x0000000000000000      0x7b0 ./build/firmware/at32f415_pwc.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_pwc.o
+ .debug_frame   0x0000000000000000      0x1b4 ./build/firmware/at32f415_pwc.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_pwc.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_sdio.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_sdio.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_pwc.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_sdio.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_sdio.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_sdio.o
  .text.sdio_reset
-                0x0000000000000000       0x4c ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x4c ./build/firmware/at32f415_sdio.o
  .text.sdio_power_set
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_power_status_get
-                0x0000000000000000       0x3e ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x3e ./build/firmware/at32f415_sdio.o
  .text.sdio_clock_config
-                0x0000000000000000       0x4e ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x4e ./build/firmware/at32f415_sdio.o
  .text.sdio_bus_width_config
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_clock_bypass
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_power_saving_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_flow_control_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_clock_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_dma_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_interrupt_enable
-                0x0000000000000000       0x3a ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x3a ./build/firmware/at32f415_sdio.o
  .text.sdio_flag_get
-                0x0000000000000000       0x32 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x32 ./build/firmware/at32f415_sdio.o
  .text.sdio_flag_clear
-                0x0000000000000000       0x1a ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x1a ./build/firmware/at32f415_sdio.o
  .text.sdio_command_config
-                0x0000000000000000       0x78 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x78 ./build/firmware/at32f415_sdio.o
  .text.sdio_command_state_machine_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_command_response_get
-                0x0000000000000000       0x1c ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_sdio.o
  .text.sdio_response_get
-                0x0000000000000000       0x5c ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x5c ./build/firmware/at32f415_sdio.o
  .text.sdio_data_config
-                0x0000000000000000       0x74 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x74 ./build/firmware/at32f415_sdio.o
  .text.sdio_data_state_machine_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_data_counter_get
-                0x0000000000000000       0x16 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x16 ./build/firmware/at32f415_sdio.o
  .text.sdio_data_read
-                0x0000000000000000       0x18 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_sdio.o
  .text.sdio_buffer_counter_get
-                0x0000000000000000       0x16 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x16 ./build/firmware/at32f415_sdio.o
  .text.sdio_data_write
-                0x0000000000000000       0x1c ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_sdio.o
  .text.sdio_read_wait_mode_set
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_read_wait_start
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_read_wait_stop
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_io_function_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
  .text.sdio_io_suspend_command_set
-                0x0000000000000000       0x28 ./firmware/at32f415_sdio.o
- .debug_info    0x0000000000000000     0x14ae ./firmware/at32f415_sdio.o
- .debug_abbrev  0x0000000000000000      0x205 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_sdio.o
+ .debug_info    0x0000000000000000     0x14ae ./build/firmware/at32f415_sdio.o
+ .debug_abbrev  0x0000000000000000      0x205 ./build/firmware/at32f415_sdio.o
  .debug_aranges
-                0x0000000000000000       0xf8 ./firmware/at32f415_sdio.o
- .debug_ranges  0x0000000000000000       0xe8 ./firmware/at32f415_sdio.o
- .debug_line    0x0000000000000000      0x431 ./firmware/at32f415_sdio.o
- .debug_str     0x0000000000000000      0xcb6 ./firmware/at32f415_sdio.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_sdio.o
- .debug_frame   0x0000000000000000      0x470 ./firmware/at32f415_sdio.o
+                0x0000000000000000       0xf8 ./build/firmware/at32f415_sdio.o
+ .debug_ranges  0x0000000000000000       0xe8 ./build/firmware/at32f415_sdio.o
+ .debug_line    0x0000000000000000      0x431 ./build/firmware/at32f415_sdio.o
+ .debug_str     0x0000000000000000      0xcb6 ./build/firmware/at32f415_sdio.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_sdio.o
+ .debug_frame   0x0000000000000000      0x470 ./build/firmware/at32f415_sdio.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_sdio.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_spi.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_spi.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_sdio.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_spi.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_spi.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_spi.o
  .text.spi_i2s_reset
-                0x0000000000000000       0x54 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x54 ./build/firmware/at32f415_spi.o
  .text.spi_default_para_init
-                0x0000000000000000       0x42 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x42 ./build/firmware/at32f415_spi.o
  .text.spi_init
-                0x0000000000000000      0x1a0 ./firmware/at32f415_spi.o
+                0x0000000000000000      0x1a0 ./build/firmware/at32f415_spi.o
  .text.spi_crc_next_transmit
-                0x0000000000000000       0x1c ./firmware/at32f415_spi.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_spi.o
  .text.spi_crc_polynomial_set
-                0x0000000000000000       0x22 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_spi.o
  .text.spi_crc_polynomial_get
-                0x0000000000000000       0x18 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_spi.o
  .text.spi_crc_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_crc_value_get
-                0x0000000000000000       0x2a ./firmware/at32f415_spi.o
+                0x0000000000000000       0x2a ./build/firmware/at32f415_spi.o
  .text.spi_hardware_cs_output_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_software_cs_internal_level_set
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_frame_bit_num_set
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_half_duplex_direction_set
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.i2s_default_para_init
-                0x0000000000000000       0x36 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x36 ./build/firmware/at32f415_spi.o
  .text.i2s_init
-                0x0000000000000000      0x2fc ./firmware/at32f415_spi.o
+                0x0000000000000000      0x2fc ./build/firmware/at32f415_spi.o
  .text.i2s_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_i2s_interrupt_enable
-                0x0000000000000000       0x3a ./firmware/at32f415_spi.o
+                0x0000000000000000       0x3a ./build/firmware/at32f415_spi.o
  .text.spi_i2s_dma_transmitter_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_i2s_dma_receiver_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_spi.o
  .text.spi_i2s_data_transmit
-                0x0000000000000000       0x1c ./firmware/at32f415_spi.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_spi.o
  .text.spi_i2s_data_receive
-                0x0000000000000000       0x18 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_spi.o
  .text.spi_i2s_flag_get
-                0x0000000000000000       0x30 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_spi.o
  .text.spi_i2s_flag_clear
-                0x0000000000000000       0x70 ./firmware/at32f415_spi.o
- .debug_info    0x0000000000000000     0x1138 ./firmware/at32f415_spi.o
- .debug_abbrev  0x0000000000000000      0x1f0 ./firmware/at32f415_spi.o
+                0x0000000000000000       0x70 ./build/firmware/at32f415_spi.o
+ .debug_info    0x0000000000000000     0x1138 ./build/firmware/at32f415_spi.o
+ .debug_abbrev  0x0000000000000000      0x1f0 ./build/firmware/at32f415_spi.o
  .debug_aranges
-                0x0000000000000000       0xd0 ./firmware/at32f415_spi.o
- .debug_ranges  0x0000000000000000       0xc0 ./firmware/at32f415_spi.o
- .debug_line    0x0000000000000000      0x58e ./firmware/at32f415_spi.o
- .debug_str     0x0000000000000000     0x1012 ./firmware/at32f415_spi.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_spi.o
- .debug_frame   0x0000000000000000      0x3a4 ./firmware/at32f415_spi.o
+                0x0000000000000000       0xd0 ./build/firmware/at32f415_spi.o
+ .debug_ranges  0x0000000000000000       0xc0 ./build/firmware/at32f415_spi.o
+ .debug_line    0x0000000000000000      0x58e ./build/firmware/at32f415_spi.o
+ .debug_str     0x0000000000000000     0x1012 ./build/firmware/at32f415_spi.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_spi.o
+ .debug_frame   0x0000000000000000      0x3a4 ./build/firmware/at32f415_spi.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_spi.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_tmr.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_tmr.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_spi.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_tmr.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_tmr.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_tmr.o
  .text.tmr_reset
-                0x0000000000000000      0x11c ./firmware/at32f415_tmr.o
+                0x0000000000000000      0x11c ./build/firmware/at32f415_tmr.o
  .text.tmr_output_default_para_init
-                0x0000000000000000       0x3c ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_tmr.o
  .text.tmr_input_default_para_init
-                0x0000000000000000       0x2a ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x2a ./build/firmware/at32f415_tmr.o
  .text.tmr_brkdt_default_para_init
-                0x0000000000000000       0x3c ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_tmr.o
  .text.tmr_clock_source_div_set
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_repetition_counter_set
-                0x0000000000000000       0x30 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_tmr.o
  .text.tmr_counter_value_set
-                0x0000000000000000       0x1a ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x1a ./build/firmware/at32f415_tmr.o
  .text.tmr_counter_value_get
-                0x0000000000000000       0x16 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x16 ./build/firmware/at32f415_tmr.o
  .text.tmr_div_value_set
-                0x0000000000000000       0x1a ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x1a ./build/firmware/at32f415_tmr.o
  .text.tmr_div_value_get
-                0x0000000000000000       0x16 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x16 ./build/firmware/at32f415_tmr.o
  .text.tmr_output_channel_config
-                0x0000000000000000      0x1cc ./firmware/at32f415_tmr.o
+                0x0000000000000000      0x1cc ./build/firmware/at32f415_tmr.o
  .text.tmr_output_channel_mode_select
-                0x0000000000000000       0x98 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_tmr.o
  .text.tmr_period_value_set
-                0x0000000000000000       0x1a ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x1a ./build/firmware/at32f415_tmr.o
  .text.tmr_period_value_get
-                0x0000000000000000       0x16 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x16 ./build/firmware/at32f415_tmr.o
  .text.tmr_channel_value_set
-                0x0000000000000000       0x68 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x68 ./build/firmware/at32f415_tmr.o
  .text.tmr_channel_value_get
-                0x0000000000000000       0x6c ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x6c ./build/firmware/at32f415_tmr.o
  .text.tmr_period_buffer_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_output_channel_buffer_enable
-                0x0000000000000000       0x98 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_tmr.o
  .text.tmr_output_channel_immediately_set
-                0x0000000000000000       0x98 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_tmr.o
  .text.tmr_output_channel_switch_set
-                0x0000000000000000       0x98 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_tmr.o
  .text.tmr_one_cycle_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_32_bit_function_enable
-                0x0000000000000000       0x3c ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_tmr.o
  .text.tmr_overflow_request_source_set
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_overflow_event_disable
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_input_channel_init
-                0x0000000000000000      0x1fc ./firmware/at32f415_tmr.o
+                0x0000000000000000      0x1fc ./build/firmware/at32f415_tmr.o
  .text.tmr_channel_enable
-                0x0000000000000000       0xd4 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0xd4 ./build/firmware/at32f415_tmr.o
  .text.tmr_input_channel_filter_set
-                0x0000000000000000       0x98 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_tmr.o
  .text.tmr_pwm_input_config
-                0x0000000000000000      0x1ea ./firmware/at32f415_tmr.o
+                0x0000000000000000      0x1ea ./build/firmware/at32f415_tmr.o
  .text.tmr_channel1_input_select
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_input_channel_divider_set
-                0x0000000000000000       0x98 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_tmr.o
  .text.tmr_primary_mode_select
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_sub_mode_select
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_channel_dma_select
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_hall_select
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_channel_buffer_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_trigger_input_select
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_sub_sync_mode_set
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_dma_request_enable
-                0x0000000000000000       0x42 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x42 ./build/firmware/at32f415_tmr.o
  .text.tmr_event_sw_trigger
-                0x0000000000000000       0x22 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_tmr.o
  .text.tmr_output_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_tmr.o
  .text.tmr_internal_clock_set
-                0x0000000000000000       0x1c ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_tmr.o
  .text.tmr_output_channel_polarity_set
-                0x0000000000000000       0xd4 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0xd4 ./build/firmware/at32f415_tmr.o
  .text.tmr_external_clock_config
-                0x0000000000000000       0x5a ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x5a ./build/firmware/at32f415_tmr.o
  .text.tmr_external_clock_mode1_config
-                0x0000000000000000       0x42 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x42 ./build/firmware/at32f415_tmr.o
  .text.tmr_external_clock_mode2_config
-                0x0000000000000000       0x38 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x38 ./build/firmware/at32f415_tmr.o
  .text.tmr_encoder_mode_config
-                0x0000000000000000       0x9e ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x9e ./build/firmware/at32f415_tmr.o
  .text.tmr_force_output_set
-                0x0000000000000000       0x98 ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_tmr.o
  .text.tmr_dma_control_config
-                0x0000000000000000       0x3e ./firmware/at32f415_tmr.o
+                0x0000000000000000       0x3e ./build/firmware/at32f415_tmr.o
  .text.tmr_brkdt_config
-                0x0000000000000000       0x9a ./firmware/at32f415_tmr.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_usart.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_usart.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x9a ./build/firmware/at32f415_tmr.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_usart.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_usart.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_usart.o
  .text.usart_reset
-                0x0000000000000000       0xb8 ./firmware/at32f415_usart.o
+                0x0000000000000000       0xb8 ./build/firmware/at32f415_usart.o
  .text.usart_parity_selection_config
-                0x0000000000000000       0x68 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x68 ./build/firmware/at32f415_usart.o
  .text.usart_receiver_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_clock_config
-                0x0000000000000000       0x5a ./firmware/at32f415_usart.o
+                0x0000000000000000       0x5a ./build/firmware/at32f415_usart.o
  .text.usart_clock_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_interrupt_enable
-                0x0000000000000000       0x66 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x66 ./build/firmware/at32f415_usart.o
  .text.usart_dma_transmitter_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_dma_receiver_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_wakeup_id_set
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_wakeup_mode_set
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_receiver_mute_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_break_bit_num_set
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_lin_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_data_receive
-                0x0000000000000000       0x18 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_usart.o
  .text.usart_break_send
-                0x0000000000000000       0x1c ./firmware/at32f415_usart.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_usart.o
  .text.usart_smartcard_guard_time_set
-                0x0000000000000000       0x22 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usart.o
  .text.usart_irda_smartcard_division_set
-                0x0000000000000000       0x22 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usart.o
  .text.usart_smartcard_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_smartcard_nack_set
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_single_line_halfduplex_select
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_irda_mode_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_irda_low_power_enable
-                0x0000000000000000       0x28 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usart.o
  .text.usart_hardware_flow_control_set
-                0x0000000000000000       0x84 ./firmware/at32f415_usart.o
+                0x0000000000000000       0x84 ./build/firmware/at32f415_usart.o
  .text.usart_flag_clear
-                0x0000000000000000       0x1c ./firmware/at32f415_usart.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_usb.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_usb.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_usart.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_usb.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_usb.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_usb.o
  .text.usb_global_reset
-                0x0000000000000000       0x6c ./firmware/at32f415_usb.o
+                0x0000000000000000       0x6c ./build/firmware/at32f415_usb.o
  .text.usb_global_init
-                0x0000000000000000       0x34 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_usb.o
  .text.usb_global_select_core
-                0x0000000000000000       0x18 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_usb.o
  .text.usb_flush_tx_fifo
-                0x0000000000000000       0x58 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x58 ./build/firmware/at32f415_usb.o
  .text.usb_flush_rx_fifo
-                0x0000000000000000       0x44 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x44 ./build/firmware/at32f415_usb.o
  .text.usb_global_interrupt_enable
-                0x0000000000000000       0x3c ./firmware/at32f415_usb.o
+                0x0000000000000000       0x3c ./build/firmware/at32f415_usb.o
  .text.usb_global_get_all_interrupt
-                0x0000000000000000       0x20 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x20 ./build/firmware/at32f415_usb.o
  .text.usb_global_clear_interrupt
-                0x0000000000000000       0x1a ./firmware/at32f415_usb.o
+                0x0000000000000000       0x1a ./build/firmware/at32f415_usb.o
  .text.usb_interrupt_enable
-                0x0000000000000000       0x1c ./firmware/at32f415_usb.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_usb.o
  .text.usb_interrupt_disable
-                0x0000000000000000       0x1c ./firmware/at32f415_usb.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_usb.o
  .text.usb_set_rx_fifo
-                0x0000000000000000       0x1c ./firmware/at32f415_usb.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_usb.o
  .text.usb_set_tx_fifo
-                0x0000000000000000       0x98 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x98 ./build/firmware/at32f415_usb.o
  .text.usb_global_set_mode
-                0x0000000000000000       0x62 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x62 ./build/firmware/at32f415_usb.o
  .text.usb_global_power_on
-                0x0000000000000000       0x36 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x36 ./build/firmware/at32f415_usb.o
  .text.usb_stop_phy_clk
-                0x0000000000000000       0x22 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usb.o
  .text.usb_open_phy_clk
-                0x0000000000000000       0x22 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usb.o
  .text.usb_write_packet
-                0x0000000000000000       0x64 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x64 ./build/firmware/at32f415_usb.o
  .text.usb_read_packet
-                0x0000000000000000       0x5a ./firmware/at32f415_usb.o
+                0x0000000000000000       0x5a ./build/firmware/at32f415_usb.o
  .text.usb_ept_open
-                0x0000000000000000      0x21c ./firmware/at32f415_usb.o
+                0x0000000000000000      0x21c ./build/firmware/at32f415_usb.o
  .text.usb_ept_close
-                0x0000000000000000       0x94 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x94 ./build/firmware/at32f415_usb.o
  .text.usb_ept_stall
-                0x0000000000000000       0xbe ./firmware/at32f415_usb.o
+                0x0000000000000000       0xbe ./build/firmware/at32f415_usb.o
  .text.usb_ept_clear_stall
-                0x0000000000000000       0xa6 ./firmware/at32f415_usb.o
+                0x0000000000000000       0xa6 ./build/firmware/at32f415_usb.o
  .text.usb_get_all_out_interrupt
-                0x0000000000000000       0x2a ./firmware/at32f415_usb.o
+                0x0000000000000000       0x2a ./build/firmware/at32f415_usb.o
  .text.usb_get_all_in_interrupt
-                0x0000000000000000       0x2a ./firmware/at32f415_usb.o
+                0x0000000000000000       0x2a ./build/firmware/at32f415_usb.o
  .text.usb_ept_out_interrupt
-                0x0000000000000000       0x30 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_usb.o
  .text.usb_ept_in_interrupt
-                0x0000000000000000       0x50 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x50 ./build/firmware/at32f415_usb.o
  .text.usb_ept_out_clear
-                0x0000000000000000       0x28 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usb.o
  .text.usb_ept_in_clear
-                0x0000000000000000       0x28 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x28 ./build/firmware/at32f415_usb.o
  .text.usb_set_address
-                0x0000000000000000       0x2e ./firmware/at32f415_usb.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_usb.o
  .text.usb_ept0_start
-                0x0000000000000000       0x42 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x42 ./build/firmware/at32f415_usb.o
  .text.usb_ept0_setup
-                0x0000000000000000       0x32 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x32 ./build/firmware/at32f415_usb.o
  .text.usb_connect
-                0x0000000000000000       0x22 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usb.o
  .text.usb_disconnect
-                0x0000000000000000       0x22 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usb.o
  .text.usb_remote_wkup_set
-                0x0000000000000000       0x22 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usb.o
  .text.usb_remote_wkup_clear
-                0x0000000000000000       0x22 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x22 ./build/firmware/at32f415_usb.o
  .text.usb_suspend_status_get
-                0x0000000000000000       0x20 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x20 ./build/firmware/at32f415_usb.o
  .text.usb_port_power_on
-                0x0000000000000000       0x48 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_usb.o
  .text.usbh_get_frame
-                0x0000000000000000       0x20 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x20 ./build/firmware/at32f415_usb.o
  .text.usb_hc_enable
-                0x0000000000000000      0x148 ./firmware/at32f415_usb.o
+                0x0000000000000000      0x148 ./build/firmware/at32f415_usb.o
  .text.usb_hch_read_interrupt
-                0x0000000000000000       0x20 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x20 ./build/firmware/at32f415_usb.o
  .text.usb_host_disable
-                0x0000000000000000       0xec ./firmware/at32f415_usb.o
+                0x0000000000000000       0xec ./build/firmware/at32f415_usb.o
  .text.usb_hch_halt
-                0x0000000000000000      0x108 ./firmware/at32f415_usb.o
+                0x0000000000000000      0x108 ./build/firmware/at32f415_usb.o
  .text.usbh_fsls_clksel
-                0x0000000000000000       0x48 ./firmware/at32f415_usb.o
- .debug_info    0x0000000000000000     0x2d56 ./firmware/at32f415_usb.o
- .debug_abbrev  0x0000000000000000      0x282 ./firmware/at32f415_usb.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_usb.o
+ .debug_info    0x0000000000000000     0x2d56 ./build/firmware/at32f415_usb.o
+ .debug_abbrev  0x0000000000000000      0x282 ./build/firmware/at32f415_usb.o
  .debug_aranges
-                0x0000000000000000      0x170 ./firmware/at32f415_usb.o
- .debug_ranges  0x0000000000000000      0x160 ./firmware/at32f415_usb.o
- .debug_line    0x0000000000000000      0xa03 ./firmware/at32f415_usb.o
- .debug_str     0x0000000000000000     0x120c ./firmware/at32f415_usb.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_usb.o
- .debug_frame   0x0000000000000000      0x6c0 ./firmware/at32f415_usb.o
+                0x0000000000000000      0x170 ./build/firmware/at32f415_usb.o
+ .debug_ranges  0x0000000000000000      0x160 ./build/firmware/at32f415_usb.o
+ .debug_line    0x0000000000000000      0xa03 ./build/firmware/at32f415_usb.o
+ .debug_str     0x0000000000000000     0x120c ./build/firmware/at32f415_usb.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_usb.o
+ .debug_frame   0x0000000000000000      0x6c0 ./build/firmware/at32f415_usb.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_usb.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_wdt.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_wdt.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_usb.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_wdt.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_wdt.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_wdt.o
  .text.wdt_enable
-                0x0000000000000000       0x18 ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_wdt.o
  .text.wdt_counter_reload
-                0x0000000000000000       0x18 ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_wdt.o
  .text.wdt_reload_value_set
-                0x0000000000000000       0x20 ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x20 ./build/firmware/at32f415_wdt.o
  .text.wdt_divider_set
-                0x0000000000000000       0x2c ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_wdt.o
  .text.wdt_register_write_enable
-                0x0000000000000000       0x30 ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x30 ./build/firmware/at32f415_wdt.o
  .text.wdt_flag_get
-                0x0000000000000000       0x34 ./firmware/at32f415_wdt.o
- .debug_info    0x0000000000000000      0x383 ./firmware/at32f415_wdt.o
- .debug_abbrev  0x0000000000000000      0x157 ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x34 ./build/firmware/at32f415_wdt.o
+ .debug_info    0x0000000000000000      0x383 ./build/firmware/at32f415_wdt.o
+ .debug_abbrev  0x0000000000000000      0x157 ./build/firmware/at32f415_wdt.o
  .debug_aranges
-                0x0000000000000000       0x48 ./firmware/at32f415_wdt.o
- .debug_ranges  0x0000000000000000       0x38 ./firmware/at32f415_wdt.o
- .debug_line    0x0000000000000000      0x199 ./firmware/at32f415_wdt.o
- .debug_str     0x0000000000000000      0x304 ./firmware/at32f415_wdt.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_wdt.o
- .debug_frame   0x0000000000000000       0xf0 ./firmware/at32f415_wdt.o
+                0x0000000000000000       0x48 ./build/firmware/at32f415_wdt.o
+ .debug_ranges  0x0000000000000000       0x38 ./build/firmware/at32f415_wdt.o
+ .debug_line    0x0000000000000000      0x199 ./build/firmware/at32f415_wdt.o
+ .debug_str     0x0000000000000000      0x304 ./build/firmware/at32f415_wdt.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_wdt.o
+ .debug_frame   0x0000000000000000       0xf0 ./build/firmware/at32f415_wdt.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_wdt.o
- .text          0x0000000000000000        0x0 ./firmware/at32f415_wwdt.o
- .data          0x0000000000000000        0x0 ./firmware/at32f415_wwdt.o
- .bss           0x0000000000000000        0x0 ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_wdt.o
+ .text          0x0000000000000000        0x0 ./build/firmware/at32f415_wwdt.o
+ .data          0x0000000000000000        0x0 ./build/firmware/at32f415_wwdt.o
+ .bss           0x0000000000000000        0x0 ./build/firmware/at32f415_wwdt.o
  .text.wwdt_reset
-                0x0000000000000000       0x1c ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_wwdt.o
  .text.wwdt_divider_set
-                0x0000000000000000       0x2c ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_wwdt.o
  .text.wwdt_flag_clear
-                0x0000000000000000       0x18 ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x18 ./build/firmware/at32f415_wwdt.o
  .text.wwdt_enable
-                0x0000000000000000       0x24 ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x24 ./build/firmware/at32f415_wwdt.o
  .text.wwdt_interrupt_enable
-                0x0000000000000000       0x1c ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_wwdt.o
  .text.wwdt_flag_get
-                0x0000000000000000       0x1c ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x1c ./build/firmware/at32f415_wwdt.o
  .text.wwdt_counter_set
-                0x0000000000000000       0x2c ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_wwdt.o
  .text.wwdt_window_counter_set
-                0x0000000000000000       0x2c ./firmware/at32f415_wwdt.o
- .debug_info    0x0000000000000000      0x43b ./firmware/at32f415_wwdt.o
- .debug_abbrev  0x0000000000000000      0x15e ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x2c ./build/firmware/at32f415_wwdt.o
+ .debug_info    0x0000000000000000      0x43b ./build/firmware/at32f415_wwdt.o
+ .debug_abbrev  0x0000000000000000      0x15e ./build/firmware/at32f415_wwdt.o
  .debug_aranges
-                0x0000000000000000       0x58 ./firmware/at32f415_wwdt.o
- .debug_ranges  0x0000000000000000       0x48 ./firmware/at32f415_wwdt.o
- .debug_line    0x0000000000000000      0x1cc ./firmware/at32f415_wwdt.o
- .debug_str     0x0000000000000000      0x55b ./firmware/at32f415_wwdt.o
- .comment       0x0000000000000000       0x34 ./firmware/at32f415_wwdt.o
- .debug_frame   0x0000000000000000      0x12c ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x58 ./build/firmware/at32f415_wwdt.o
+ .debug_ranges  0x0000000000000000       0x48 ./build/firmware/at32f415_wwdt.o
+ .debug_line    0x0000000000000000      0x1cc ./build/firmware/at32f415_wwdt.o
+ .debug_str     0x0000000000000000      0x55b ./build/firmware/at32f415_wwdt.o
+ .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_wwdt.o
+ .debug_frame   0x0000000000000000      0x12c ./build/firmware/at32f415_wwdt.o
  .ARM.attributes
-                0x0000000000000000       0x2e ./firmware/at32f415_wwdt.o
+                0x0000000000000000       0x2e ./build/firmware/at32f415_wwdt.o
  .text          0x0000000000000000       0x14 ./build/cmsis/startup_at32f415.o
  .data          0x0000000000000000        0x0 ./build/cmsis/startup_at32f415.o
  .bss           0x0000000000000000        0x0 ./build/cmsis/startup_at32f415.o
@@ -1482,27 +1482,27 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/no
 LOAD ./build/user/at32f415_clock.o
 LOAD ./build/user/at32f415_int.o
 LOAD ./build/user/main.o
-LOAD ./firmware/at32f415_adc.o
-LOAD ./firmware/at32f415_can.o
-LOAD ./firmware/at32f415_cmp.o
-LOAD ./firmware/at32f415_crc.o
-LOAD ./firmware/at32f415_crm.o
-LOAD ./firmware/at32f415_debug.o
-LOAD ./firmware/at32f415_dma.o
-LOAD ./firmware/at32f415_ertc.o
-LOAD ./firmware/at32f415_exint.o
-LOAD ./firmware/at32f415_flash.o
-LOAD ./firmware/at32f415_gpio.o
-LOAD ./firmware/at32f415_i2c.o
-LOAD ./firmware/at32f415_misc.o
-LOAD ./firmware/at32f415_pwc.o
-LOAD ./firmware/at32f415_sdio.o
-LOAD ./firmware/at32f415_spi.o
-LOAD ./firmware/at32f415_tmr.o
-LOAD ./firmware/at32f415_usart.o
-LOAD ./firmware/at32f415_usb.o
-LOAD ./firmware/at32f415_wdt.o
-LOAD ./firmware/at32f415_wwdt.o
+LOAD ./build/firmware/at32f415_adc.o
+LOAD ./build/firmware/at32f415_can.o
+LOAD ./build/firmware/at32f415_cmp.o
+LOAD ./build/firmware/at32f415_crc.o
+LOAD ./build/firmware/at32f415_crm.o
+LOAD ./build/firmware/at32f415_debug.o
+LOAD ./build/firmware/at32f415_dma.o
+LOAD ./build/firmware/at32f415_ertc.o
+LOAD ./build/firmware/at32f415_exint.o
+LOAD ./build/firmware/at32f415_flash.o
+LOAD ./build/firmware/at32f415_gpio.o
+LOAD ./build/firmware/at32f415_i2c.o
+LOAD ./build/firmware/at32f415_misc.o
+LOAD ./build/firmware/at32f415_pwc.o
+LOAD ./build/firmware/at32f415_sdio.o
+LOAD ./build/firmware/at32f415_spi.o
+LOAD ./build/firmware/at32f415_tmr.o
+LOAD ./build/firmware/at32f415_usart.o
+LOAD ./build/firmware/at32f415_usb.o
+LOAD ./build/firmware/at32f415_wdt.o
+LOAD ./build/firmware/at32f415_wwdt.o
 LOAD ./build/cmsis/startup_at32f415.o
 LOAD ./build/cmsis/system_at32f415.o
 LOAD ./build/bsp/at32f415_board.o
@@ -1702,158 +1702,158 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  .text.main     0x0000000008002250       0x98 ./build/user/main.o
                 0x0000000008002250                main
  .text.crm_reset
-                0x00000000080022e8       0x74 ./firmware/at32f415_crm.o
+                0x00000000080022e8       0x74 ./build/firmware/at32f415_crm.o
                 0x00000000080022e8                crm_reset
  .text.crm_flag_get
-                0x000000000800235c       0x4e ./firmware/at32f415_crm.o
+                0x000000000800235c       0x4e ./build/firmware/at32f415_crm.o
                 0x000000000800235c                crm_flag_get
  .text.crm_hext_stable_wait
-                0x00000000080023aa       0x4a ./firmware/at32f415_crm.o
+                0x00000000080023aa       0x4a ./build/firmware/at32f415_crm.o
                 0x00000000080023aa                crm_hext_stable_wait
  .text.crm_periph_clock_enable
-                0x00000000080023f4       0x7a ./firmware/at32f415_crm.o
+                0x00000000080023f4       0x7a ./build/firmware/at32f415_crm.o
                 0x00000000080023f4                crm_periph_clock_enable
  .text.crm_periph_reset
-                0x000000000800246e       0x7a ./firmware/at32f415_crm.o
+                0x000000000800246e       0x7a ./build/firmware/at32f415_crm.o
                 0x000000000800246e                crm_periph_reset
  .text.crm_clock_source_enable
-                0x00000000080024e8       0xa4 ./firmware/at32f415_crm.o
+                0x00000000080024e8       0xa4 ./build/firmware/at32f415_crm.o
                 0x00000000080024e8                crm_clock_source_enable
  .text.crm_ahb_div_set
-                0x000000000800258c       0x2c ./firmware/at32f415_crm.o
+                0x000000000800258c       0x2c ./build/firmware/at32f415_crm.o
                 0x000000000800258c                crm_ahb_div_set
  .text.crm_apb1_div_set
-                0x00000000080025b8       0x2c ./firmware/at32f415_crm.o
+                0x00000000080025b8       0x2c ./build/firmware/at32f415_crm.o
                 0x00000000080025b8                crm_apb1_div_set
  .text.crm_apb2_div_set
-                0x00000000080025e4       0x2c ./firmware/at32f415_crm.o
+                0x00000000080025e4       0x2c ./build/firmware/at32f415_crm.o
                 0x00000000080025e4                crm_apb2_div_set
  .text.crm_pll_config
-                0x0000000008002610      0x15c ./firmware/at32f415_crm.o
+                0x0000000008002610      0x15c ./build/firmware/at32f415_crm.o
                 0x0000000008002610                crm_pll_config
  .text.crm_sysclk_switch
-                0x000000000800276c       0x2c ./firmware/at32f415_crm.o
+                0x000000000800276c       0x2c ./build/firmware/at32f415_crm.o
                 0x000000000800276c                crm_sysclk_switch
  .text.crm_sysclk_switch_status_get
-                0x0000000008002798       0x1c ./firmware/at32f415_crm.o
+                0x0000000008002798       0x1c ./build/firmware/at32f415_crm.o
                 0x0000000008002798                crm_sysclk_switch_status_get
  .text.crm_clocks_freq_get
-                0x00000000080027b4      0x26c ./firmware/at32f415_crm.o
+                0x00000000080027b4      0x26c ./build/firmware/at32f415_crm.o
                 0x00000000080027b4                crm_clocks_freq_get
  .text.crm_auto_step_mode_enable
-                0x0000000008002a20       0x34 ./firmware/at32f415_crm.o
+                0x0000000008002a20       0x34 ./build/firmware/at32f415_crm.o
                 0x0000000008002a20                crm_auto_step_mode_enable
  .text.exint_default_para_init
-                0x0000000008002a54       0x2a ./firmware/at32f415_exint.o
+                0x0000000008002a54       0x2a ./build/firmware/at32f415_exint.o
                 0x0000000008002a54                exint_default_para_init
  *fill*         0x0000000008002a7e        0x2 
  .text.exint_init
-                0x0000000008002a80       0xc8 ./firmware/at32f415_exint.o
+                0x0000000008002a80       0xc8 ./build/firmware/at32f415_exint.o
                 0x0000000008002a80                exint_init
  .text.exint_flag_clear
-                0x0000000008002b48       0x1c ./firmware/at32f415_exint.o
+                0x0000000008002b48       0x1c ./build/firmware/at32f415_exint.o
                 0x0000000008002b48                exint_flag_clear
  .text.gpio_init
-                0x0000000008002b64      0x136 ./firmware/at32f415_gpio.o
+                0x0000000008002b64      0x136 ./build/firmware/at32f415_gpio.o
                 0x0000000008002b64                gpio_init
  .text.gpio_default_para_init
-                0x0000000008002c9a       0x32 ./firmware/at32f415_gpio.o
+                0x0000000008002c9a       0x32 ./build/firmware/at32f415_gpio.o
                 0x0000000008002c9a                gpio_default_para_init
  .text.gpio_input_data_bit_read
-                0x0000000008002ccc       0x34 ./firmware/at32f415_gpio.o
+                0x0000000008002ccc       0x34 ./build/firmware/at32f415_gpio.o
                 0x0000000008002ccc                gpio_input_data_bit_read
  .text.gpio_pin_remap_config
-                0x0000000008002d00       0x96 ./firmware/at32f415_gpio.o
+                0x0000000008002d00       0x96 ./build/firmware/at32f415_gpio.o
                 0x0000000008002d00                gpio_pin_remap_config
  *fill*         0x0000000008002d96        0x2 
  .text.gpio_exint_line_config
-                0x0000000008002d98       0xf4 ./firmware/at32f415_gpio.o
+                0x0000000008002d98       0xf4 ./build/firmware/at32f415_gpio.o
                 0x0000000008002d98                gpio_exint_line_config
  .text.i2c_reset
-                0x0000000008002e8c       0x54 ./firmware/at32f415_i2c.o
+                0x0000000008002e8c       0x54 ./build/firmware/at32f415_i2c.o
                 0x0000000008002e8c                i2c_reset
  .text.i2c_init
-                0x0000000008002ee0      0x170 ./firmware/at32f415_i2c.o
+                0x0000000008002ee0      0x170 ./build/firmware/at32f415_i2c.o
                 0x0000000008002ee0                i2c_init
  .text.i2c_own_address1_set
-                0x0000000008003050       0x3e ./firmware/at32f415_i2c.o
+                0x0000000008003050       0x3e ./build/firmware/at32f415_i2c.o
                 0x0000000008003050                i2c_own_address1_set
  .text.i2c_enable
-                0x000000000800308e       0x28 ./firmware/at32f415_i2c.o
+                0x000000000800308e       0x28 ./build/firmware/at32f415_i2c.o
                 0x000000000800308e                i2c_enable
  .text.i2c_master_receive_ack_set
-                0x00000000080030b6       0x28 ./firmware/at32f415_i2c.o
+                0x00000000080030b6       0x28 ./build/firmware/at32f415_i2c.o
                 0x00000000080030b6                i2c_master_receive_ack_set
  .text.i2c_start_generate
-                0x00000000080030de       0x1c ./firmware/at32f415_i2c.o
+                0x00000000080030de       0x1c ./build/firmware/at32f415_i2c.o
                 0x00000000080030de                i2c_start_generate
  .text.i2c_stop_generate
-                0x00000000080030fa       0x1c ./firmware/at32f415_i2c.o
+                0x00000000080030fa       0x1c ./build/firmware/at32f415_i2c.o
                 0x00000000080030fa                i2c_stop_generate
  .text.i2c_7bit_address_send
-                0x0000000008003116       0x3a ./firmware/at32f415_i2c.o
+                0x0000000008003116       0x3a ./build/firmware/at32f415_i2c.o
                 0x0000000008003116                i2c_7bit_address_send
  .text.i2c_data_send
-                0x0000000008003150       0x1c ./firmware/at32f415_i2c.o
+                0x0000000008003150       0x1c ./build/firmware/at32f415_i2c.o
                 0x0000000008003150                i2c_data_send
  .text.i2c_flag_get
-                0x000000000800316c       0x54 ./firmware/at32f415_i2c.o
+                0x000000000800316c       0x54 ./build/firmware/at32f415_i2c.o
                 0x000000000800316c                i2c_flag_get
  .text.i2c_flag_clear
-                0x00000000080031c0       0x22 ./firmware/at32f415_i2c.o
+                0x00000000080031c0       0x22 ./build/firmware/at32f415_i2c.o
                 0x00000000080031c0                i2c_flag_clear
  *fill*         0x00000000080031e2        0x2 
  .text.__NVIC_SetPriorityGrouping
-                0x00000000080031e4       0x48 ./firmware/at32f415_misc.o
+                0x00000000080031e4       0x48 ./build/firmware/at32f415_misc.o
  .text.__NVIC_GetPriorityGrouping
-                0x000000000800322c       0x1c ./firmware/at32f415_misc.o
+                0x000000000800322c       0x1c ./build/firmware/at32f415_misc.o
  .text.__NVIC_EnableIRQ
-                0x0000000008003248       0x38 ./firmware/at32f415_misc.o
+                0x0000000008003248       0x38 ./build/firmware/at32f415_misc.o
  .text.__NVIC_SetPriority
-                0x0000000008003280       0x54 ./firmware/at32f415_misc.o
+                0x0000000008003280       0x54 ./build/firmware/at32f415_misc.o
  .text.NVIC_EncodePriority
-                0x00000000080032d4       0x64 ./firmware/at32f415_misc.o
+                0x00000000080032d4       0x64 ./build/firmware/at32f415_misc.o
  .text.nvic_irq_enable
-                0x0000000008003338       0x42 ./firmware/at32f415_misc.o
+                0x0000000008003338       0x42 ./build/firmware/at32f415_misc.o
                 0x0000000008003338                nvic_irq_enable
  .text.nvic_priority_group_config
-                0x000000000800337a       0x1a ./firmware/at32f415_misc.o
+                0x000000000800337a       0x1a ./build/firmware/at32f415_misc.o
                 0x000000000800337a                nvic_priority_group_config
  .text.systick_clock_source_config
-                0x0000000008003394       0x38 ./firmware/at32f415_misc.o
+                0x0000000008003394       0x38 ./build/firmware/at32f415_misc.o
                 0x0000000008003394                systick_clock_source_config
  .text.tmr_counter_enable
-                0x00000000080033cc       0x28 ./firmware/at32f415_tmr.o
+                0x00000000080033cc       0x28 ./build/firmware/at32f415_tmr.o
                 0x00000000080033cc                tmr_counter_enable
  .text.tmr_base_init
-                0x00000000080033f4       0x2c ./firmware/at32f415_tmr.o
+                0x00000000080033f4       0x2c ./build/firmware/at32f415_tmr.o
                 0x00000000080033f4                tmr_base_init
  .text.tmr_cnt_dir_set
-                0x0000000008003420       0x28 ./firmware/at32f415_tmr.o
+                0x0000000008003420       0x28 ./build/firmware/at32f415_tmr.o
                 0x0000000008003420                tmr_cnt_dir_set
  .text.tmr_interrupt_enable
-                0x0000000008003448       0x40 ./firmware/at32f415_tmr.o
+                0x0000000008003448       0x40 ./build/firmware/at32f415_tmr.o
                 0x0000000008003448                tmr_interrupt_enable
  .text.tmr_flag_get
-                0x0000000008003488       0x30 ./firmware/at32f415_tmr.o
+                0x0000000008003488       0x30 ./build/firmware/at32f415_tmr.o
                 0x0000000008003488                tmr_flag_get
  .text.tmr_flag_clear
-                0x00000000080034b8       0x1c ./firmware/at32f415_tmr.o
+                0x00000000080034b8       0x1c ./build/firmware/at32f415_tmr.o
                 0x00000000080034b8                tmr_flag_clear
  .text.usart_init
-                0x00000000080034d4       0xbc ./firmware/at32f415_usart.o
+                0x00000000080034d4       0xbc ./build/firmware/at32f415_usart.o
                 0x00000000080034d4                usart_init
  .text.usart_enable
-                0x0000000008003590       0x28 ./firmware/at32f415_usart.o
+                0x0000000008003590       0x28 ./build/firmware/at32f415_usart.o
                 0x0000000008003590                usart_enable
  .text.usart_transmitter_enable
-                0x00000000080035b8       0x28 ./firmware/at32f415_usart.o
+                0x00000000080035b8       0x28 ./build/firmware/at32f415_usart.o
                 0x00000000080035b8                usart_transmitter_enable
  .text.usart_data_transmit
-                0x00000000080035e0       0x20 ./firmware/at32f415_usart.o
+                0x00000000080035e0       0x20 ./build/firmware/at32f415_usart.o
                 0x00000000080035e0                usart_data_transmit
  .text.usart_flag_get
-                0x0000000008003600       0x26 ./firmware/at32f415_usart.o
+                0x0000000008003600       0x26 ./build/firmware/at32f415_usart.o
                 0x0000000008003600                usart_flag_get
  *fill*         0x0000000008003626        0x2 
  .text.Reset_Handler
@@ -2002,7 +2002,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.rodata)
  .rodata        0x0000000008004034       0x53 ./build/user/main.o
  *fill*         0x0000000008004087        0x1 
- .rodata        0x0000000008004088       0x28 ./firmware/at32f415_crm.o
+ .rodata        0x0000000008004088       0x28 ./build/firmware/at32f415_crm.o
  .rodata        0x00000000080040b0       0x10 ./build/cmsis/system_at32f415.o
  .rodata        0x00000000080040c0       0x3c ./build/bsp/i2c_application.o
  .rodata        0x00000000080040fc        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
@@ -2134,19 +2134,19 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  .ARM.attributes
                 0x00000000000000a8       0x2e ./build/user/main.o
  .ARM.attributes
-                0x00000000000000d6       0x2e ./firmware/at32f415_crm.o
+                0x00000000000000d6       0x2e ./build/firmware/at32f415_crm.o
  .ARM.attributes
-                0x0000000000000104       0x2e ./firmware/at32f415_exint.o
+                0x0000000000000104       0x2e ./build/firmware/at32f415_exint.o
  .ARM.attributes
-                0x0000000000000132       0x2e ./firmware/at32f415_gpio.o
+                0x0000000000000132       0x2e ./build/firmware/at32f415_gpio.o
  .ARM.attributes
-                0x0000000000000160       0x2e ./firmware/at32f415_i2c.o
+                0x0000000000000160       0x2e ./build/firmware/at32f415_i2c.o
  .ARM.attributes
-                0x000000000000018e       0x2e ./firmware/at32f415_misc.o
+                0x000000000000018e       0x2e ./build/firmware/at32f415_misc.o
  .ARM.attributes
-                0x00000000000001bc       0x2e ./firmware/at32f415_tmr.o
+                0x00000000000001bc       0x2e ./build/firmware/at32f415_tmr.o
  .ARM.attributes
-                0x00000000000001ea       0x2e ./firmware/at32f415_usart.o
+                0x00000000000001ea       0x2e ./build/firmware/at32f415_usart.o
  .ARM.attributes
                 0x0000000000000218       0x21 ./build/cmsis/startup_at32f415.o
  .ARM.attributes
@@ -2261,13 +2261,13 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .comment       0x0000000000000033       0x34 ./build/user/at32f415_clock.o
  .comment       0x0000000000000033       0x34 ./build/user/at32f415_int.o
  .comment       0x0000000000000033       0x34 ./build/user/main.o
- .comment       0x0000000000000033       0x34 ./firmware/at32f415_crm.o
- .comment       0x0000000000000033       0x34 ./firmware/at32f415_exint.o
- .comment       0x0000000000000033       0x34 ./firmware/at32f415_gpio.o
- .comment       0x0000000000000033       0x34 ./firmware/at32f415_i2c.o
- .comment       0x0000000000000033       0x34 ./firmware/at32f415_misc.o
- .comment       0x0000000000000033       0x34 ./firmware/at32f415_tmr.o
- .comment       0x0000000000000033       0x34 ./firmware/at32f415_usart.o
+ .comment       0x0000000000000033       0x34 ./build/firmware/at32f415_crm.o
+ .comment       0x0000000000000033       0x34 ./build/firmware/at32f415_exint.o
+ .comment       0x0000000000000033       0x34 ./build/firmware/at32f415_gpio.o
+ .comment       0x0000000000000033       0x34 ./build/firmware/at32f415_i2c.o
+ .comment       0x0000000000000033       0x34 ./build/firmware/at32f415_misc.o
+ .comment       0x0000000000000033       0x34 ./build/firmware/at32f415_tmr.o
+ .comment       0x0000000000000033       0x34 ./build/firmware/at32f415_usart.o
  .comment       0x0000000000000033       0x34 ./build/cmsis/system_at32f415.o
  .comment       0x0000000000000033       0x34 ./build/bsp/at32f415_board.o
  .comment       0x0000000000000033       0x34 ./build/bsp/i2c.o
@@ -2318,13 +2318,13 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_info    0x0000000000000000      0xcef ./build/user/at32f415_clock.o
  .debug_info    0x0000000000000cef      0x10e ./build/user/at32f415_int.o
  .debug_info    0x0000000000000dfd     0x1c37 ./build/user/main.o
- .debug_info    0x0000000000002a34     0x211c ./firmware/at32f415_crm.o
- .debug_info    0x0000000000004b50      0x4e8 ./firmware/at32f415_exint.o
- .debug_info    0x0000000000005038     0x1ae6 ./firmware/at32f415_gpio.o
- .debug_info    0x0000000000006b1e     0x107d ./firmware/at32f415_i2c.o
- .debug_info    0x0000000000007b9b      0x93f ./firmware/at32f415_misc.o
- .debug_info    0x00000000000084da     0x2597 ./firmware/at32f415_tmr.o
- .debug_info    0x000000000000aa71      0xf97 ./firmware/at32f415_usart.o
+ .debug_info    0x0000000000002a34     0x211c ./build/firmware/at32f415_crm.o
+ .debug_info    0x0000000000004b50      0x4e8 ./build/firmware/at32f415_exint.o
+ .debug_info    0x0000000000005038     0x1ae6 ./build/firmware/at32f415_gpio.o
+ .debug_info    0x0000000000006b1e     0x107d ./build/firmware/at32f415_i2c.o
+ .debug_info    0x0000000000007b9b      0x93f ./build/firmware/at32f415_misc.o
+ .debug_info    0x00000000000084da     0x2597 ./build/firmware/at32f415_tmr.o
+ .debug_info    0x000000000000aa71      0xf97 ./build/firmware/at32f415_usart.o
  .debug_info    0x000000000000ba08       0x22 ./build/cmsis/startup_at32f415.o
  .debug_info    0x000000000000ba2a     0x1493 ./build/cmsis/system_at32f415.o
  .debug_info    0x000000000000cebd     0x22ab ./build/bsp/at32f415_board.o
@@ -2379,13 +2379,13 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_abbrev  0x0000000000000000      0x1b9 ./build/user/at32f415_clock.o
  .debug_abbrev  0x00000000000001b9       0x44 ./build/user/at32f415_int.o
  .debug_abbrev  0x00000000000001fd      0x291 ./build/user/main.o
- .debug_abbrev  0x000000000000048e      0x229 ./firmware/at32f415_crm.o
- .debug_abbrev  0x00000000000006b7      0x159 ./firmware/at32f415_exint.o
- .debug_abbrev  0x0000000000000810      0x203 ./firmware/at32f415_gpio.o
- .debug_abbrev  0x0000000000000a13      0x240 ./firmware/at32f415_i2c.o
- .debug_abbrev  0x0000000000000c53      0x232 ./firmware/at32f415_misc.o
- .debug_abbrev  0x0000000000000e85      0x1e5 ./firmware/at32f415_tmr.o
- .debug_abbrev  0x000000000000106a      0x224 ./firmware/at32f415_usart.o
+ .debug_abbrev  0x000000000000048e      0x229 ./build/firmware/at32f415_crm.o
+ .debug_abbrev  0x00000000000006b7      0x159 ./build/firmware/at32f415_exint.o
+ .debug_abbrev  0x0000000000000810      0x203 ./build/firmware/at32f415_gpio.o
+ .debug_abbrev  0x0000000000000a13      0x240 ./build/firmware/at32f415_i2c.o
+ .debug_abbrev  0x0000000000000c53      0x232 ./build/firmware/at32f415_misc.o
+ .debug_abbrev  0x0000000000000e85      0x1e5 ./build/firmware/at32f415_tmr.o
+ .debug_abbrev  0x000000000000106a      0x224 ./build/firmware/at32f415_usart.o
  .debug_abbrev  0x000000000000128e       0x12 ./build/cmsis/startup_at32f415.o
  .debug_abbrev  0x00000000000012a0      0x187 ./build/cmsis/system_at32f415.o
  .debug_abbrev  0x0000000000001427      0x33e ./build/bsp/at32f415_board.o
@@ -2444,19 +2444,19 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_aranges
                 0x0000000000000080       0x40 ./build/user/main.o
  .debug_aranges
-                0x00000000000000c0      0x130 ./firmware/at32f415_crm.o
+                0x00000000000000c0      0x130 ./build/firmware/at32f415_crm.o
  .debug_aranges
-                0x00000000000001f0       0x58 ./firmware/at32f415_exint.o
+                0x00000000000001f0       0x58 ./build/firmware/at32f415_exint.o
  .debug_aranges
-                0x0000000000000248       0xa0 ./firmware/at32f415_gpio.o
+                0x0000000000000248       0xa0 ./build/firmware/at32f415_gpio.o
  .debug_aranges
-                0x00000000000002e8      0x108 ./firmware/at32f415_i2c.o
+                0x00000000000002e8      0x108 ./build/firmware/at32f415_i2c.o
  .debug_aranges
-                0x00000000000003f0       0x88 ./firmware/at32f415_misc.o
+                0x00000000000003f0       0x88 ./build/firmware/at32f415_misc.o
  .debug_aranges
-                0x0000000000000478      0x1d0 ./firmware/at32f415_tmr.o
+                0x0000000000000478      0x1d0 ./build/firmware/at32f415_tmr.o
  .debug_aranges
-                0x0000000000000648      0x100 ./firmware/at32f415_usart.o
+                0x0000000000000648      0x100 ./build/firmware/at32f415_usart.o
  .debug_aranges
                 0x0000000000000748       0x28 ./build/cmsis/startup_at32f415.o
  .debug_aranges
@@ -2560,13 +2560,13 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_ranges  0x0000000000000000       0x10 ./build/user/at32f415_clock.o
  .debug_ranges  0x0000000000000010       0x50 ./build/user/at32f415_int.o
  .debug_ranges  0x0000000000000060       0x30 ./build/user/main.o
- .debug_ranges  0x0000000000000090      0x120 ./firmware/at32f415_crm.o
- .debug_ranges  0x00000000000001b0       0x48 ./firmware/at32f415_exint.o
- .debug_ranges  0x00000000000001f8       0x90 ./firmware/at32f415_gpio.o
- .debug_ranges  0x0000000000000288       0xf8 ./firmware/at32f415_i2c.o
- .debug_ranges  0x0000000000000380       0x78 ./firmware/at32f415_misc.o
- .debug_ranges  0x00000000000003f8      0x1c0 ./firmware/at32f415_tmr.o
- .debug_ranges  0x00000000000005b8       0xf0 ./firmware/at32f415_usart.o
+ .debug_ranges  0x0000000000000090      0x120 ./build/firmware/at32f415_crm.o
+ .debug_ranges  0x00000000000001b0       0x48 ./build/firmware/at32f415_exint.o
+ .debug_ranges  0x00000000000001f8       0x90 ./build/firmware/at32f415_gpio.o
+ .debug_ranges  0x0000000000000288       0xf8 ./build/firmware/at32f415_i2c.o
+ .debug_ranges  0x0000000000000380       0x78 ./build/firmware/at32f415_misc.o
+ .debug_ranges  0x00000000000003f8      0x1c0 ./build/firmware/at32f415_tmr.o
+ .debug_ranges  0x00000000000005b8       0xf0 ./build/firmware/at32f415_usart.o
  .debug_ranges  0x00000000000006a8       0x20 ./build/cmsis/startup_at32f415.o
  .debug_ranges  0x00000000000006c8       0x18 ./build/cmsis/system_at32f415.o
  .debug_ranges  0x00000000000006e0       0x80 ./build/bsp/at32f415_board.o
@@ -2592,13 +2592,13 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_line    0x0000000000000000      0x14d ./build/user/at32f415_clock.o
  .debug_line    0x000000000000014d       0xf8 ./build/user/at32f415_int.o
  .debug_line    0x0000000000000245      0x263 ./build/user/main.o
- .debug_line    0x00000000000004a8      0x854 ./firmware/at32f415_crm.o
- .debug_line    0x0000000000000cfc      0x248 ./firmware/at32f415_exint.o
- .debug_line    0x0000000000000f44      0x4b1 ./firmware/at32f415_gpio.o
- .debug_line    0x00000000000013f5      0x4a8 ./firmware/at32f415_i2c.o
- .debug_line    0x000000000000189d      0x39e ./firmware/at32f415_misc.o
- .debug_line    0x0000000000001c3b      0xaa6 ./firmware/at32f415_tmr.o
- .debug_line    0x00000000000026e1      0x481 ./firmware/at32f415_usart.o
+ .debug_line    0x00000000000004a8      0x854 ./build/firmware/at32f415_crm.o
+ .debug_line    0x0000000000000cfc      0x248 ./build/firmware/at32f415_exint.o
+ .debug_line    0x0000000000000f44      0x4b1 ./build/firmware/at32f415_gpio.o
+ .debug_line    0x00000000000013f5      0x4a8 ./build/firmware/at32f415_i2c.o
+ .debug_line    0x000000000000189d      0x39e ./build/firmware/at32f415_misc.o
+ .debug_line    0x0000000000001c3b      0xaa6 ./build/firmware/at32f415_tmr.o
+ .debug_line    0x00000000000026e1      0x481 ./build/firmware/at32f415_usart.o
  .debug_line    0x0000000000002b62       0x77 ./build/cmsis/startup_at32f415.o
  .debug_line    0x0000000000002bd9      0x2e9 ./build/cmsis/system_at32f415.o
  .debug_line    0x0000000000002ec2      0x51b ./build/bsp/at32f415_board.o
@@ -2656,19 +2656,19 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
                                         0x1c7 (size before relaxing)
  .debug_str     0x0000000000000b57     0x150f ./build/user/main.o
                                        0x16f1 (size before relaxing)
- .debug_str     0x0000000000002066     0x123f ./firmware/at32f415_crm.o
+ .debug_str     0x0000000000002066     0x123f ./build/firmware/at32f415_crm.o
                                        0x1ce0 (size before relaxing)
- .debug_str     0x00000000000032a5      0x16f ./firmware/at32f415_exint.o
+ .debug_str     0x00000000000032a5      0x16f ./build/firmware/at32f415_exint.o
                                         0x3d6 (size before relaxing)
- .debug_str     0x0000000000003414      0x707 ./firmware/at32f415_gpio.o
+ .debug_str     0x0000000000003414      0x707 ./build/firmware/at32f415_gpio.o
                                         0xff5 (size before relaxing)
- .debug_str     0x0000000000003b1b      0x44a ./firmware/at32f415_i2c.o
+ .debug_str     0x0000000000003b1b      0x44a ./build/firmware/at32f415_i2c.o
                                         0xae4 (size before relaxing)
- .debug_str     0x0000000000003f65      0x3ab ./firmware/at32f415_misc.o
+ .debug_str     0x0000000000003f65      0x3ab ./build/firmware/at32f415_misc.o
                                         0x959 (size before relaxing)
- .debug_str     0x0000000000004310     0x17e9 ./firmware/at32f415_tmr.o
+ .debug_str     0x0000000000004310     0x17e9 ./build/firmware/at32f415_tmr.o
                                        0x1e1f (size before relaxing)
- .debug_str     0x0000000000005af9      0x73b ./firmware/at32f415_usart.o
+ .debug_str     0x0000000000005af9      0x73b ./build/firmware/at32f415_usart.o
                                         0xc07 (size before relaxing)
  .debug_str     0x0000000000006234       0x28 ./build/cmsis/startup_at32f415.o
                                          0x45 (size before relaxing)
@@ -2772,13 +2772,13 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_frame   0x0000000000000000       0x2c ./build/user/at32f415_clock.o
  .debug_frame   0x000000000000002c      0x110 ./build/user/at32f415_int.o
  .debug_frame   0x000000000000013c       0xac ./build/user/main.o
- .debug_frame   0x00000000000001e8      0x57c ./firmware/at32f415_crm.o
- .debug_frame   0x0000000000000764      0x148 ./firmware/at32f415_exint.o
- .debug_frame   0x00000000000008ac      0x2a8 ./firmware/at32f415_gpio.o
- .debug_frame   0x0000000000000b54      0x4b8 ./firmware/at32f415_i2c.o
- .debug_frame   0x000000000000100c      0x210 ./firmware/at32f415_misc.o
- .debug_frame   0x000000000000121c      0x89c ./firmware/at32f415_tmr.o
- .debug_frame   0x0000000000001ab8      0x490 ./firmware/at32f415_usart.o
+ .debug_frame   0x00000000000001e8      0x57c ./build/firmware/at32f415_crm.o
+ .debug_frame   0x0000000000000764      0x148 ./build/firmware/at32f415_exint.o
+ .debug_frame   0x00000000000008ac      0x2a8 ./build/firmware/at32f415_gpio.o
+ .debug_frame   0x0000000000000b54      0x4b8 ./build/firmware/at32f415_i2c.o
+ .debug_frame   0x000000000000100c      0x210 ./build/firmware/at32f415_misc.o
+ .debug_frame   0x000000000000121c      0x89c ./build/firmware/at32f415_tmr.o
+ .debug_frame   0x0000000000001ab8      0x490 ./build/firmware/at32f415_usart.o
  .debug_frame   0x0000000000001f48       0x60 ./build/cmsis/system_at32f415.o
  .debug_frame   0x0000000000001fa8      0x220 ./build/bsp/at32f415_board.o
  .debug_frame   0x00000000000021c8       0x34 ./build/bsp/i2c.o

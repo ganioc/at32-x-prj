@@ -12,7 +12,7 @@ MODEL = at32f415
 ##-include sources.mk
 
 -include build/user/subdir.mk
--include firmware/subdir.mk
+-include build/firmware/subdir.mk
 -include build/cmsis/subdir.mk
 -include build/bsp/subdir.mk
 -include subdir.mk
