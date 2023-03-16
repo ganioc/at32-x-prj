@@ -11,7 +11,7 @@ MODEL = at32f415
 # All of the sources participating in the build are defined here
 ##-include sources.mk
 
--include user/subdir.mk
+-include build/user/subdir.mk
 -include firmware/subdir.mk
 -include cmsis/subdir.mk
 -include bsp/subdir.mk
@@ -33,12 +33,12 @@ ifneq ($(strip $(C_DEPS)),)
 endif
 endif
 
--include ../makefile.defs
+#-include ../makefile.defs
 
 OPTIONAL_TOOL_DEPS := \
-$(wildcard ../makefile.defs) \
-$(wildcard ../makefile.init) \
-$(wildcard ../makefile.targets) \
+# $(wildcard ../makefile.defs) \
+# $(wildcard ../makefile.init) \
+# $(wildcard ../makefile.targets) \
 
 
 BUILD_ARTIFACT_NAME := test415
