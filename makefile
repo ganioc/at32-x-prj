@@ -2,8 +2,6 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-##-include ../makefile.init
-
 RM := rm -rf
 
 PRJ  = attest415
@@ -38,7 +36,6 @@ ifneq ($(strip $(C_DEPS)),)
 endif
 endif
 
-#-include ../makefile.defs
 
 OPTIONAL_TOOL_DEPS := \
 # $(wildcard ../makefile.defs) \
@@ -75,26 +72,26 @@ all: main-build
 main-build: $(PRJ).elf secondary-outputs
 
 # Tool invocations
-$(PRJ).elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).elf: $(OBJS) $(USER_OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU Arm Cross C Linker'
 	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -T $(LDSCRIPT_FILE) -Xlinker --gc-sections -Wl,-Map,$(PRJ).map --specs=nano.specs --specs=nosys.specs -o $(PRJ).elf $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-$(PRJ).hex: $(PRJ).elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).hex: $(PRJ).elf makefile  $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: GNU Arm Cross Create Flash Image'
 	arm-none-eabi-objcopy -O ihex $(PRJ).elf  $(PRJ).hex
 	@echo 'Finished building: $@'
 	@echo ' '
 
-$(PRJ).bin: $(PRJ).elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).bin: $(PRJ).elf makefile  $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: GNU Arm Cross Create Flash Image'
 	arm-none-eabi-objcopy -O binary $(PRJ).elf  $(PRJ).bin
 	@echo "Finished building: $@"
 	@echo ' '
 
-$(PRJ).siz: $(PRJ).elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).siz: $(PRJ).elf makefile  $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: GNU Arm Cross Print Size'
 	arm-none-eabi-size --format=berkeley $(PRJ).elf
 	@echo 'Finished building: $@'
@@ -103,10 +100,11 @@ $(PRJ).siz: $(PRJ).elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 # Other Targets
 clean:
 	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS) $(PRJ).elf $(PRJ).map
+	-find ./ -name "*~" | xargs rm -f
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)
 
 .PHONY: all clean dependents main-build
 
-##-include ../makefile.targets
+
