@@ -53,7 +53,7 @@ test415.bin test415.hex \
 SECONDARY_SIZE += \
 test415.siz \
 
-LDSCRIPT_FILE = ./ldscripts/AT32F415xC_FLASH.ld
+LDSCRIPT_FILE = ./ldscripts/$(MODEL)/AT32F415xC_FLASH.ld
 
 INCLUDE_PATH =  -I"./models/$(MODEL)/include" \
 	-I"./models/$(MODEL)/include/libraries/drivers/inc" \
