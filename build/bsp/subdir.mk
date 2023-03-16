@@ -4,11 +4,11 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../bsp/at32f415_board.c \
-../bsp/i2c.c \
-../bsp/i2c_application.c \
-../bsp/timer1.c \
-../bsp/uid.c 
+./models/$(MODEL)/bsp/at32f415_board.c \
+./models/$(MODEL)/bsp/i2c.c \
+./models/$(MODEL)/bsp/i2c_application.c \
+./models/$(MODEL)/bsp/timer1.c \
+./models/$(MODEL)/bsp/uid.c 
 
 OBJS += \
 ./build/bsp/at32f415_board.o \
