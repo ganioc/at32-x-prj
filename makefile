@@ -2,14 +2,14 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
--include ../makefile.init
+##-include ../makefile.init
 
 RM := rm -rf
 
 MODEL = at32f415
 
 # All of the sources participating in the build are defined here
--include sources.mk
+##-include sources.mk
 
 -include user/subdir.mk
 -include firmware/subdir.mk
