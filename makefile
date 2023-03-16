@@ -6,6 +6,8 @@
 
 RM := rm -rf
 
+PRJ  = attest415
+
 MODEL = at32f415
 BOARD = AT_START_F415_V1
 BOARD_NAME = -D$(BOARD)
@@ -44,17 +46,17 @@ OPTIONAL_TOOL_DEPS := \
 # $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := test415
+BUILD_ARTIFACT_NAME := $(PRJ)
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_FLASH += \
-test415.bin test415.hex \
+$(PRJ).bin $(PRJ).hex \
 
 SECONDARY_SIZE += \
-test415.siz \
+$(PRJ).siz \
 
 LDSCRIPT_FILE = ./ldscripts/$(MODEL)/AT32F415xC_FLASH.ld
 
@@ -70,37 +72,37 @@ INCLUDE_PATH =  -I"./models/$(MODEL)/include" \
 all: main-build
 
 # Main-build Target
-main-build: test415.elf secondary-outputs
+main-build: $(PRJ).elf secondary-outputs
 
 # Tool invocations
-test415.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU Arm Cross C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -T $(LDSCRIPT_FILE) -Xlinker --gc-sections -Wl,-Map,"test415.map" --specs=nano.specs --specs=nosys.specs -o "test415.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -T $(LDSCRIPT_FILE) -Xlinker --gc-sections -Wl,-Map,$(PRJ).map --specs=nano.specs --specs=nosys.specs -o $(PRJ).elf $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-test415.hex: test415.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).hex: $(PRJ).elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: GNU Arm Cross Create Flash Image'
-	arm-none-eabi-objcopy -O ihex "test415.elf"  "test415.hex"
+	arm-none-eabi-objcopy -O ihex $(PRJ).elf  $(PRJ).hex
 	@echo 'Finished building: $@'
 	@echo ' '
 
-test415.bin: test415.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).bin: $(PRJ).elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: GNU Arm Cross Create Flash Image'
-	arm-none-eabi-objcopy -O binary "test415.elf"  "test415.bin"
+	arm-none-eabi-objcopy -O binary $(PRJ).elf  $(PRJ).bin
 	@echo "Finished building: $@"
 	@echo ' '
 
-test415.siz: test415.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+$(PRJ).siz: $(PRJ).elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: GNU Arm Cross Print Size'
-	arm-none-eabi-size --format=berkeley "test415.elf"
+	arm-none-eabi-size --format=berkeley $(PRJ).elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS) test415.elf test415.map
+	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS) $(PRJ).elf $(PRJ).map
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)
