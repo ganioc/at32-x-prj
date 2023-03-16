@@ -197,7 +197,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000      0x118 ./build/firmware/at32f415_adc.o
  .debug_ranges  0x0000000000000000      0x108 ./build/firmware/at32f415_adc.o
- .debug_line    0x0000000000000000      0x631 ./build/firmware/at32f415_adc.o
+ .debug_line    0x0000000000000000      0x64f ./build/firmware/at32f415_adc.o
  .debug_str     0x0000000000000000     0x11e7 ./build/firmware/at32f415_adc.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_adc.o
  .debug_frame   0x0000000000000000      0x50c ./build/firmware/at32f415_adc.o
@@ -259,7 +259,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xd8 ./build/firmware/at32f415_can.o
  .debug_ranges  0x0000000000000000       0xc8 ./build/firmware/at32f415_can.o
- .debug_line    0x0000000000000000      0x9ed ./build/firmware/at32f415_can.o
+ .debug_line    0x0000000000000000      0xa0b ./build/firmware/at32f415_can.o
  .debug_str     0x0000000000000000     0x1587 ./build/firmware/at32f415_can.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_can.o
  .debug_frame   0x0000000000000000      0x3c8 ./build/firmware/at32f415_can.o
@@ -287,7 +287,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x50 ./build/firmware/at32f415_cmp.o
  .debug_ranges  0x0000000000000000       0x40 ./build/firmware/at32f415_cmp.o
- .debug_line    0x0000000000000000      0x279 ./build/firmware/at32f415_cmp.o
+ .debug_line    0x0000000000000000      0x297 ./build/firmware/at32f415_cmp.o
  .debug_str     0x0000000000000000      0x8fe ./build/firmware/at32f415_cmp.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_cmp.o
  .debug_frame   0x0000000000000000      0x11c ./build/firmware/at32f415_cmp.o
@@ -319,7 +319,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x60 ./build/firmware/at32f415_crc.o
  .debug_ranges  0x0000000000000000       0x50 ./build/firmware/at32f415_crc.o
- .debug_line    0x0000000000000000      0x1c5 ./build/firmware/at32f415_crc.o
+ .debug_line    0x0000000000000000      0x1d4 ./build/firmware/at32f415_crc.o
  .debug_str     0x0000000000000000      0x350 ./build/firmware/at32f415_crc.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_crc.o
  .debug_frame   0x0000000000000000      0x160 ./build/firmware/at32f415_crc.o
@@ -382,7 +382,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x28 ./build/firmware/at32f415_debug.o
  .debug_ranges  0x0000000000000000       0x18 ./build/firmware/at32f415_debug.o
- .debug_line    0x0000000000000000      0x122 ./build/firmware/at32f415_debug.o
+ .debug_line    0x0000000000000000      0x140 ./build/firmware/at32f415_debug.o
  .debug_str     0x0000000000000000      0x320 ./build/firmware/at32f415_debug.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_debug.o
  .debug_frame   0x0000000000000000       0x58 ./build/firmware/at32f415_debug.o
@@ -416,7 +416,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x68 ./build/firmware/at32f415_dma.o
  .debug_ranges  0x0000000000000000       0x58 ./build/firmware/at32f415_dma.o
- .debug_line    0x0000000000000000      0x310 ./build/firmware/at32f415_dma.o
+ .debug_line    0x0000000000000000      0x32e ./build/firmware/at32f415_dma.o
  .debug_str     0x0000000000000000      0xc01 ./build/firmware/at32f415_dma.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_dma.o
  .debug_frame   0x0000000000000000      0x1a0 ./build/firmware/at32f415_dma.o
@@ -538,7 +538,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000      0x1c8 ./build/firmware/at32f415_ertc.o
  .debug_ranges  0x0000000000000000      0x1b8 ./build/firmware/at32f415_ertc.o
- .debug_line    0x0000000000000000      0xb87 ./build/firmware/at32f415_ertc.o
+ .debug_line    0x0000000000000000      0xba5 ./build/firmware/at32f415_ertc.o
  .debug_str     0x0000000000000000     0x14f7 ./build/firmware/at32f415_ertc.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_ertc.o
  .debug_frame   0x0000000000000000      0x7b4 ./build/firmware/at32f415_ertc.o
@@ -632,7 +632,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000      0x120 ./build/firmware/at32f415_flash.o
  .debug_ranges  0x0000000000000000      0x110 ./build/firmware/at32f415_flash.o
- .debug_line    0x0000000000000000      0x8da ./build/firmware/at32f415_flash.o
+ .debug_line    0x0000000000000000      0x8f8 ./build/firmware/at32f415_flash.o
  .debug_str     0x0000000000000000      0x9aa ./build/firmware/at32f415_flash.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_flash.o
  .debug_frame   0x0000000000000000      0x494 ./build/firmware/at32f415_flash.o
@@ -751,7 +751,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x70 ./build/firmware/at32f415_pwc.o
  .debug_ranges  0x0000000000000000       0x60 ./build/firmware/at32f415_pwc.o
- .debug_line    0x0000000000000000      0x2a0 ./build/firmware/at32f415_pwc.o
+ .debug_line    0x0000000000000000      0x2cd ./build/firmware/at32f415_pwc.o
  .debug_str     0x0000000000000000      0x7b0 ./build/firmware/at32f415_pwc.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_pwc.o
  .debug_frame   0x0000000000000000      0x1b4 ./build/firmware/at32f415_pwc.o
@@ -821,7 +821,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xf8 ./build/firmware/at32f415_sdio.o
  .debug_ranges  0x0000000000000000       0xe8 ./build/firmware/at32f415_sdio.o
- .debug_line    0x0000000000000000      0x431 ./build/firmware/at32f415_sdio.o
+ .debug_line    0x0000000000000000      0x44f ./build/firmware/at32f415_sdio.o
  .debug_str     0x0000000000000000      0xcb6 ./build/firmware/at32f415_sdio.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_sdio.o
  .debug_frame   0x0000000000000000      0x470 ./build/firmware/at32f415_sdio.o
@@ -881,7 +881,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0xd0 ./build/firmware/at32f415_spi.o
  .debug_ranges  0x0000000000000000       0xc0 ./build/firmware/at32f415_spi.o
- .debug_line    0x0000000000000000      0x58e ./build/firmware/at32f415_spi.o
+ .debug_line    0x0000000000000000      0x5ac ./build/firmware/at32f415_spi.o
  .debug_str     0x0000000000000000     0x1012 ./build/firmware/at32f415_spi.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_spi.o
  .debug_frame   0x0000000000000000      0x3a4 ./build/firmware/at32f415_spi.o
@@ -1133,7 +1133,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000      0x170 ./build/firmware/at32f415_usb.o
  .debug_ranges  0x0000000000000000      0x160 ./build/firmware/at32f415_usb.o
- .debug_line    0x0000000000000000      0xa03 ./build/firmware/at32f415_usb.o
+ .debug_line    0x0000000000000000      0xa30 ./build/firmware/at32f415_usb.o
  .debug_str     0x0000000000000000     0x120c ./build/firmware/at32f415_usb.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_usb.o
  .debug_frame   0x0000000000000000      0x6c0 ./build/firmware/at32f415_usb.o
@@ -1159,7 +1159,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x48 ./build/firmware/at32f415_wdt.o
  .debug_ranges  0x0000000000000000       0x38 ./build/firmware/at32f415_wdt.o
- .debug_line    0x0000000000000000      0x199 ./build/firmware/at32f415_wdt.o
+ .debug_line    0x0000000000000000      0x1b7 ./build/firmware/at32f415_wdt.o
  .debug_str     0x0000000000000000      0x304 ./build/firmware/at32f415_wdt.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_wdt.o
  .debug_frame   0x0000000000000000       0xf0 ./build/firmware/at32f415_wdt.o
@@ -1189,7 +1189,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x58 ./build/firmware/at32f415_wwdt.o
  .debug_ranges  0x0000000000000000       0x48 ./build/firmware/at32f415_wwdt.o
- .debug_line    0x0000000000000000      0x1cc ./build/firmware/at32f415_wwdt.o
+ .debug_line    0x0000000000000000      0x1ea ./build/firmware/at32f415_wwdt.o
  .debug_str     0x0000000000000000      0x55b ./build/firmware/at32f415_wwdt.o
  .comment       0x0000000000000000       0x34 ./build/firmware/at32f415_wwdt.o
  .debug_frame   0x0000000000000000      0x12c ./build/firmware/at32f415_wwdt.o
@@ -2588,66 +2588,66 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a
  .debug_ranges  0x0000000000000d88       0xa0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-putc.o)
  .debug_ranges  0x0000000000000e28       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fvwrite.o)
 
-.debug_line     0x0000000000000000     0xa9e2
+.debug_line     0x0000000000000000     0xaaf0
  .debug_line    0x0000000000000000      0x178 ./build/user/at32f415_clock.o
  .debug_line    0x0000000000000178      0x105 ./build/user/at32f415_int.o
  .debug_line    0x000000000000027d      0x29d ./build/user/main.o
- .debug_line    0x000000000000051a      0x854 ./build/firmware/at32f415_crm.o
- .debug_line    0x0000000000000d6e      0x248 ./build/firmware/at32f415_exint.o
- .debug_line    0x0000000000000fb6      0x4b1 ./build/firmware/at32f415_gpio.o
- .debug_line    0x0000000000001467      0x4a8 ./build/firmware/at32f415_i2c.o
- .debug_line    0x000000000000190f      0x39e ./build/firmware/at32f415_misc.o
- .debug_line    0x0000000000001cad      0xaa6 ./build/firmware/at32f415_tmr.o
- .debug_line    0x0000000000002753      0x481 ./build/firmware/at32f415_usart.o
- .debug_line    0x0000000000002bd4       0x84 ./build/cmsis/startup_at32f415.o
- .debug_line    0x0000000000002c58      0x2f6 ./build/cmsis/system_at32f415.o
- .debug_line    0x0000000000002f4e      0x557 ./build/bsp/at32f415_board.o
- .debug_line    0x00000000000034a5      0x1ba ./build/bsp/i2c.o
- .debug_line    0x000000000000365f     0x1130 ./build/bsp/i2c_application.o
- .debug_line    0x000000000000478f      0x179 ./build/bsp/timer1.o
- .debug_line    0x0000000000004908       0xc0 ./build/bsp/uid.o
- .debug_line    0x00000000000049c8       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
- .debug_line    0x0000000000004a28      0x5b4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
- .debug_line    0x0000000000004fdc       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000000503c       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
- .debug_line    0x0000000000005120      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
- .debug_line    0x0000000000005258      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
- .debug_line    0x0000000000005417      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-printf.o)
- .debug_line    0x0000000000005643      0x1fd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-putchar.o)
- .debug_line    0x0000000000005840      0x31f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
- .debug_line    0x0000000000005b5f      0x279 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
- .debug_line    0x0000000000005dd8      0x33e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
- .debug_line    0x0000000000006116      0x47a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
- .debug_line    0x0000000000006590      0x589 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
- .debug_line    0x0000000000006b19      0x29e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
- .debug_line    0x0000000000006db7      0x3b2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
- .debug_line    0x0000000000007169      0x2c0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
- .debug_line    0x0000000000007429      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
- .debug_line    0x00000000000076f9      0x6ee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
- .debug_line    0x0000000000007de7      0x750 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_line    0x0000000000008537      0x387 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-putc.o)
- .debug_line    0x00000000000088be      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
- .debug_line    0x0000000000008a41      0x231 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
- .debug_line    0x0000000000008c72      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
- .debug_line    0x0000000000008dfb      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
- .debug_line    0x0000000000008f7e      0x203 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
- .debug_line    0x0000000000009181      0x5dd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fvwrite.o)
- .debug_line    0x000000000000975e      0x184 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
- .debug_line    0x00000000000098e2      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
- .debug_line    0x0000000000009a6b       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
- .debug_line    0x0000000000009b0f       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy.o)
- .debug_line    0x0000000000009bcd      0x1ee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
- .debug_line    0x0000000000009dbb      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
- .debug_line    0x0000000000009ef9      0x1c5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
- .debug_line    0x000000000000a0be      0x188 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
- .debug_line    0x000000000000a246      0x2c7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-reent.o)
- .debug_line    0x000000000000a50d      0x160 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
- .debug_line    0x000000000000a66d       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(close.o)
- .debug_line    0x000000000000a6dd      0x13a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(fstat.o)
- .debug_line    0x000000000000a817       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(isatty.o)
- .debug_line    0x000000000000a888       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(lseek.o)
- .debug_line    0x000000000000a8f9       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(read.o)
- .debug_line    0x000000000000a969       0x79 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(sbrk.o)
+ .debug_line    0x000000000000051a      0x872 ./build/firmware/at32f415_crm.o
+ .debug_line    0x0000000000000d8c      0x266 ./build/firmware/at32f415_exint.o
+ .debug_line    0x0000000000000ff2      0x4cf ./build/firmware/at32f415_gpio.o
+ .debug_line    0x00000000000014c1      0x4c6 ./build/firmware/at32f415_i2c.o
+ .debug_line    0x0000000000001987      0x3cb ./build/firmware/at32f415_misc.o
+ .debug_line    0x0000000000001d52      0xac4 ./build/firmware/at32f415_tmr.o
+ .debug_line    0x0000000000002816      0x49f ./build/firmware/at32f415_usart.o
+ .debug_line    0x0000000000002cb5       0x84 ./build/cmsis/startup_at32f415.o
+ .debug_line    0x0000000000002d39      0x323 ./build/cmsis/system_at32f415.o
+ .debug_line    0x000000000000305c      0x557 ./build/bsp/at32f415_board.o
+ .debug_line    0x00000000000035b3      0x1ba ./build/bsp/i2c.o
+ .debug_line    0x000000000000376d     0x1130 ./build/bsp/i2c_application.o
+ .debug_line    0x000000000000489d      0x179 ./build/bsp/timer1.o
+ .debug_line    0x0000000000004a16       0xc0 ./build/bsp/uid.o
+ .debug_line    0x0000000000004ad6       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x0000000000004b36      0x5b4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x00000000000050ea       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000000000000514a       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-impure.o)
+ .debug_line    0x000000000000522e      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
+ .debug_line    0x0000000000005366      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+ .debug_line    0x0000000000005525      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-printf.o)
+ .debug_line    0x0000000000005751      0x1fd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-putchar.o)
+ .debug_line    0x000000000000594e      0x31f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-puts.o)
+ .debug_line    0x0000000000005c6d      0x279 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .debug_line    0x0000000000005ee6      0x33e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .debug_line    0x0000000000006224      0x47a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .debug_line    0x000000000000669e      0x589 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .debug_line    0x0000000000006c27      0x29e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .debug_line    0x0000000000006ec5      0x3b2 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .debug_line    0x0000000000007277      0x2c0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .debug_line    0x0000000000007537      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_line    0x0000000000007807      0x6ee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .debug_line    0x0000000000007ef5      0x750 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_line    0x0000000000008645      0x387 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-putc.o)
+ .debug_line    0x00000000000089cc      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000008b4f      0x231 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .debug_line    0x0000000000008d80      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-writer.o)
+ .debug_line    0x0000000000008f09      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-closer.o)
+ .debug_line    0x000000000000908c      0x203 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .debug_line    0x000000000000928f      0x5dd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .debug_line    0x000000000000986c      0x184 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .debug_line    0x00000000000099f0      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .debug_line    0x0000000000009b79       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memchr.o)
+ .debug_line    0x0000000000009c1d       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000009cdb      0x1ee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .debug_line    0x0000000000009ec9      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .debug_line    0x000000000000a007      0x1c5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_line    0x000000000000a1cc      0x188 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-readr.o)
+ .debug_line    0x000000000000a354      0x2c7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-reent.o)
+ .debug_line    0x000000000000a61b      0x160 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_line    0x000000000000a77b       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(close.o)
+ .debug_line    0x000000000000a7eb      0x13a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(fstat.o)
+ .debug_line    0x000000000000a925       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(isatty.o)
+ .debug_line    0x000000000000a996       0x71 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(lseek.o)
+ .debug_line    0x000000000000aa07       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(read.o)
+ .debug_line    0x000000000000aa77       0x79 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a(sbrk.o)
 
 .debug_str      0x0000000000000000     0x85bd
  .debug_str     0x0000000000000000      0xabd ./build/user/at32f415_clock.o
