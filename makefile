@@ -55,6 +55,12 @@ test415.siz \
 
 LDSCRIPT_FILE = ./ldscripts/AT32F415xC_FLASH.ld
 
+INCLUDE_PATH =  -I"./models/$(MODEL)/include" \
+	-I"./models/$(MODEL)/include/libraries/drivers/inc" \
+	-I"./models/$(MODEL)/include/libraries/cmsis/cm4/core_support" \
+	-I"./models/$(MODEL)/include/libraries/cmsis/cm4/device_support"
+
+
 # All Target
 all: main-build
 
